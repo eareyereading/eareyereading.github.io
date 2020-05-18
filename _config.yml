@@ -1,0 +1,25 @@
+title: 听阅
+subtitle: "一款专为英语学习者设计的阅读软件"
+description: "一款专为英语学习者设计的阅读软件。"
+author: 听阅
+language: zh-cn
+timezone: UTC
+
+url: https://www.eareyereading.com
+root: /
+permalink: news/:year/:month/:day/:title/
+archive_dir: news
+code_dir: downloads/code
+new_post_name: :year-:month-:day-:title.md # File name of new posts
+post_asset_folder: true
+per_page: 0
+
+theme: navy
+deploy:
+  type: git
+  repo: https://github.com/eareyereading/eareyereading.github.io.git
+  branch: gh-pages 
+
+highlight:
+  enable: true
+  line_number: false

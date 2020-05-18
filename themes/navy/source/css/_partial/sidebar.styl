@@ -1,0 +1,40 @@
+#sidebar
+  width: sidebar-width
+  float: left
+  padding-left: 0
+  margin-left: sidebar-width * -1
+  display: none
+  font-size: .76rem;
+  @media mq-normal
+    display: block
+
+.sidebar-title
+  padding: .95rem 0rem
+  font-family: font-title
+  font-weight: bold
+  color: color-link
+  display: block
+  border: 0;
+  border-bottom: 1px solid #f2f2f2
+  border-right: 1px solid #f2f2f2
+  line-height: 1
+
+.sidebar-link
+  font-family: font-title
+  display: block
+  color: color-default
+  text-decoration: none
+  padding: .95rem 0.0rem
+  margin-left: 1.2rem
+  line-height: 1
+  position: relative
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+  border: 0;
+  border-bottom: 1px solid #f2f2f2
+  border-right: 1px solid #f2f2f2
+  &.current
+    color: color-link
+  &:hover
+    color: color-link-hover

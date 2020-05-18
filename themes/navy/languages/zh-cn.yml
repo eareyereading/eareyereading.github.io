@@ -1,0 +1,59 @@
+menu:
+  help: 使用帮助
+  api: API
+  news: 新闻
+  plugins: 插件
+  themes: 主题
+  search: 搜索
+
+index:
+  get_started: 开始使用
+
+page:
+  contents: 目录
+  back_to_top: 回到顶部
+  improve: 改进本文
+  prev: 上一页
+  next: 下一页
+  last_updated: 上次更新：%s
+
+sidebar:
+  help:
+    getting_started: 开始使用
+    overview: 概述
+    word_lookup: 查词
+    learning_add: 添加学习
+    learning_review: 复习学习
+    reading: 阅读
+    reading_action: 阅读操作
+    reading_translation: 英汉对照书籍
+    reading_audio: 有声书籍
+    reading_purchase: 购买书籍
+    reading_import_books: 导入书籍
+    word: 单词
+    word_multiple_meaning: 多义词
+    learning: 学习
+    learning_set_image: 设置图片
+    learning_set_audio: 设置音频
+    review: 复习
+    review_set_algorithm: 设置复习算法
+    lrc: 制作字幕
+    lrc_set_timestamp: 设置时间戳
+    lrc_adjust_timestamp: 调整时间戳
+    lrc_split: 分割字幕
+    lrc_combine: 合并字幕
+    subscription: 会员
+    membership_book: 听阅会员权益
+    membership_news: 听闻会员权益
+    subscription_subscribe: 开通会员
+    subscription_cancel: 取消会员
+    subscription_share_between_devices: 设备间共享会员
+    other_app: 其他应用
+    eareye_pro: 听阅畅听版
+    eareye_news: 听闻
+    eareye_reader: 听阅阅读器
+    miscellaneous: 其他
+    font: 导入字体
+    copyright: 内容合作及知识产权保护声明
+    privacy: 关于听阅会员与客户隐私
+    privacy_news: 关于听闻会员与客户隐私

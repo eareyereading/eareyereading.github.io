@@ -1,0 +1,14 @@
+help:
+  getting_started:
+    overview: index.html
+    word_lookup: word-lookup.html
+  subscription:
+    membership_book: membership-book.html
+    membership_news: membership-news.html
+    subscription_cancel: subscription-cancel.html
+  miscellaneous:
+    reading_import_books: book-imports-others.html
+    font: font-imports.html
+    copyright: copyright.html
+    privacy: privacy.html
+    privacy_news: privacy-news.html
