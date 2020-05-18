@@ -18,7 +18,7 @@ theme: navy
 deploy:
   type: git
   repo: https://github.com/eareyereading/eareyereading.github.io.git
-  branch: master
+  branch: gh-pages 
 
 highlight:
   enable: true
