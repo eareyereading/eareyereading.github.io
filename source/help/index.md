@@ -8,7 +8,7 @@ title: 使用说明
 打开 AppStore，并搜索“听阅”，即可下载安装。
 
 {% note warn %}
-听阅当前只支持 iOS 11.0 以上的系统，不支持 Android。
+听阅当前只支持 iOS 11.0 以上的系统，不支持 Android。 TEST
 {% endnote %}
 
 ### 选择适合的书籍
