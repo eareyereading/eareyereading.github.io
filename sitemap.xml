@@ -2,345 +2,345 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.eareyereading.com/index.html</loc>
+    <loc>https://www.eareyereading.com/help/tag-plugins.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.839Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/themes/index.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.839Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/lrc-combine.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/news/2015/03/05/hexo-3-0-released/</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/news/2016/02/28/hexo-3-2-released/</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/news/2014/06/14/hexo-2-7-released/</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/about/index.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/asset-folders.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/book-imports-others.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/commands.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/configuration.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/contributing.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/copyright.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/data-files.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/deployment.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/dialyze-book.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/dict-imports.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/font-imports.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/front-matter.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/gen-audio-books.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/generating.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/index.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/internationalization.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/lrc-adjust-timestamp.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/news/2014/07/13/hexo-2-8-released/</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/lrc-set-timestamp.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/lrc-split.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/make-lrc-book.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/membership-book.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/membership-news.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/migration.html</loc>
-    
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/permalinks.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/plugins.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/privacy-news.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/privacy.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/server.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/setup.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/subscription-cancel.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/tag-plugins.html</loc>
+    <loc>https://www.eareyereading.com/index.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/templates.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/themes.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/transfer-proship.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/troubleshooting.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/user_make_lrc.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/variables.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/word-lookup.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/writing.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.728Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/lrc-combine.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/gen-audio-books.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/generating.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/index.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/internationalization.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/lrc-adjust-timestamp.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/news/2014/07/13/hexo-2-8-released/</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/lrc-set-timestamp.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/lrc-split.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/make-lrc-book.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/membership-book.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/membership-news.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/migration.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/news/2015/02/27/new-documentation-and-registry/</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/news/2015/03/05/hexo-3-0-released/</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/news/2016/02/28/hexo-3-2-released/</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/news/2014/06/14/hexo-2-7-released/</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/about/index.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/asset-folders.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/book-imports-others.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/commands.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/configuration.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/contributing.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/copyright.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/data-files.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/deployment.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/dialyze-book.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/dict-imports.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/font-imports.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/front-matter.html</loc>
+    
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://www.eareyereading.com/help/helpers.html</loc>
     
-    <lastmod>2020-05-18T11:16:26.835Z</lastmod>
+    <lastmod>2020-05-18T11:26:11.724Z</lastmod>
     
   </url>
   
