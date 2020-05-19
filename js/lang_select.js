@@ -1,0 +1,1 @@
+!function(){"use strict";var i=window.Cookies.noConflict();document.getElementById("mobile-lang-select").addEventListener("change",function(){var e=this.value,n=this.dataset.canonical,t="/";"en"!==e&&(t+=e+"/"),i.set("nf_lang",e,{expires:365}),location.href=t+n})}();

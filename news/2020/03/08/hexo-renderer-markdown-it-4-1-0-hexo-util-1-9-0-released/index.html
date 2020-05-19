@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>hexo-renderer-markdown-it 4.1.0 & hexo-util 1.9.0 released | 听阅</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://www.eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/index.html">
+  <!-- Alternative links -->
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <meta name="generator" content="Hexo 4.2.0">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
+</head>
+
+<body>
+  <div id="container">
+    <div id="content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      <article class="article post" itemscope itemtype="http://schema.org/Article">
+  <header class="article-header">
+    
+      <h1 class="article-title" itemprop="name">hexo-renderer-markdown-it 4.1.0 & hexo-util 1.9.0 released</h1>
+    
+    <a href="/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/" class="article-date"><time datetime="2020-03-08T00:00:00.000Z">2020-03-08</time></a>
+  </header>
+  <div class="article-content" itemprop="articleBody">
+    <h2 id="hexo-renderer-markdown-it-4-1-0" class="article-heading"><a href="#hexo-renderer-markdown-it-4-1-0" class="headerlink" title="hexo-renderer-markdown-it 4.1.0"></a>hexo-renderer-markdown-it 4.1.0<a class="article-anchor" href="#hexo-renderer-markdown-it-4-1-0" aria-hidden="true"></a></h2><h3 id="Feature" class="article-heading"><a href="#Feature" class="headerlink" title="Feature"></a>Feature<a class="article-anchor" href="#Feature" aria-hidden="true"></a></h3><ul>
+<li><code>permalinkSide</code> option <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/105" rel="external nofollow noreferrer noopener">#105</a>. </li>
+</ul>
+<p>By default, when <code>permalink</code> option is enabled, the permalink symbol is prepended before each heading. If you prefer to append to the end of each heading:</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">permalinkSide:</span> <span class="string">'right'</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Housekeeping" class="article-heading"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping<a class="article-anchor" href="#Housekeeping" aria-hidden="true"></a></h3><ul>
+<li>Remove unneeded <code>sluggo</code> dependency <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/99" rel="external nofollow noreferrer noopener">#99</a>.<ul>
+<li>It has been replaced by hexo-util’s slugize <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/95" rel="external nofollow noreferrer noopener">#95</a>.</li>
+</ul>
+</li>
+<li>Update nyc from 14.1.1 to 15.0.0 <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/100" rel="external nofollow noreferrer noopener">#100</a></li>
+</ul>
+<hr>
+<h2 id="hexo-util-1-9-0" class="article-heading"><a href="#hexo-util-1-9-0" class="headerlink" title="hexo-util 1.9.0"></a>hexo-util 1.9.0<a class="article-anchor" href="#hexo-util-1-9-0" aria-hidden="true"></a></h2><h3 id="Features" class="article-heading"><a href="#Features" class="headerlink" title="Features"></a>Features<a class="article-anchor" href="#Features" aria-hidden="true"></a></h3><ul>
+<li>feat(prism): add data-language attribute <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/177" rel="external nofollow noreferrer noopener">#177</a></li>
+<li>feat(prism): add mark &amp; firstLine option support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/172" rel="external nofollow noreferrer noopener">#172</a></li>
+<li>feat: bring up prism highlight support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/168" rel="external nofollow noreferrer noopener">#168</a><ul>
+<li>Laying the groundwork for the planned support of <a target="_blank" href="https://prismjs.com/" rel="external nofollow noreferrer noopener">prism</a> highlight library in the upcoming Hexo v5, in addition to the current <a target="_blank" href="https://highlightjs.org/" rel="external nofollow noreferrer noopener">highlight.js</a> library.</li>
+</ul>
+</li>
+</ul>
+<h3 id="Fixes" class="article-heading"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes<a class="article-anchor" href="#Fixes" aria-hidden="true"></a></h3><ul>
+<li>fix(is_external_link): handle invalid url <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/183" rel="external nofollow noreferrer noopener">#183</a></li>
+<li>fix(prism): add strip_indent support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/184" rel="external nofollow noreferrer noopener">#184</a></li>
+<li>fix(tocObj): skip permalink symbol  <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/175" rel="external nofollow noreferrer noopener">#175</a></li>
+<li>Fix highlighting when hljs=true <a target="_blank" href="https://github.com/ppwwyyxx" rel="external nofollow noreferrer noopener">@ppwwyyxx</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/171" rel="external nofollow noreferrer noopener">#171</a></li>
+<li>htmlTag - toString() before match() for scalar values. <a target="_blank" href="https://github.com/KentarouTakeda" rel="external nofollow noreferrer noopener">@KentarouTakeda</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/176" rel="external nofollow noreferrer noopener">#176</a></li>
+</ul>
+<h3 id="Refactor" class="article-heading"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor<a class="article-anchor" href="#Refactor" aria-hidden="true"></a></h3><ul>
+<li>refactor: optimize cache <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/170" rel="external nofollow noreferrer noopener">#170</a></li>
+<li>refactor(highlight): add strip-indent <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/169" rel="external nofollow noreferrer noopener">#169</a></li>
+<li>refactor(toc_obj): simplify the code <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/181" rel="external nofollow noreferrer noopener">#181</a></li>
+</ul>
+<h3 id="Dependencies" class="article-heading"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies<a class="article-anchor" href="#Dependencies" aria-hidden="true"></a></h3><ul>
+<li>chore(deps-dev): bump mocha from 6.2.2 to 7.0.0 <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/173" rel="external nofollow noreferrer noopener">#173</a></li>
+</ul>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/toc.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>

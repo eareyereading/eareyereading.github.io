@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Official plugin hexo-renderer-markdown-it 4.0.0 released | 听阅</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://www.eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/index.html">
+  <!-- Alternative links -->
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <meta name="generator" content="Hexo 4.2.0">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
+</head>
+
+<body>
+  <div id="container">
+    <div id="content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      <article class="article post" itemscope itemtype="http://schema.org/Article">
+  <header class="article-header">
+    
+      <h1 class="article-title" itemprop="name">Official plugin hexo-renderer-markdown-it 4.0.0 released</h1>
+    
+    <a href="/news/2019/12/15/hexo-renderer-markdown-it-4/" class="article-date"><time datetime="2019-12-15T00:00:00.000Z">2019-12-15</time></a>
+  </header>
+  <div class="article-content" itemprop="articleBody">
+    <p>We have released a new version of the official plugin <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it" rel="external nofollow noreferrer noopener">hexo-renderer-markdown-it</a></p>
+<h3 id="Breaking-changes" class="article-heading"><a href="#Breaking-changes" class="headerlink" title="Breaking changes"></a>Breaking changes<a class="article-anchor" href="#Breaking-changes" aria-hidden="true"></a></h3><ul>
+<li>We have updated the default config to be consistent with <a target="_blank" href="https://github.com/hexojs/hexo-renderer-marked" rel="external nofollow noreferrer noopener">hexo-renderer-marked</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/90" rel="external nofollow noreferrer noopener">#90</a>, <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/92" rel="external nofollow noreferrer noopener">#92</a><ul>
+<li>New defaults:<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">render:</span></span><br><span class="line">    <span class="attr">html:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">xhtmlOut:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">breaks:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">linkify:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">typographer:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">quotes:</span> <span class="string">'“”‘’'</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">level:</span> <span class="number">2</span></span><br><span class="line">    <span class="attr">collisionSuffix:</span> <span class="string">''</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">permalinkClass:</span> <span class="string">'header-anchor'</span></span><br><span class="line">    <span class="attr">permalinkSymbol:</span> <span class="string">'¶'</span></span><br><span class="line">    <span class="attr">case:</span> <span class="number">0</span></span><br><span class="line">    <span class="attr">separator:</span> <span class="string">'-'</span></span><br></pre></td></tr></table></figure></li>
+<li>Previous defaults (other configs remain the same):<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">level:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">collisionSuffix:</span> <span class="string">'v'</span></span><br><span class="line">    <span class="attr">case:</span> <span class="number">1</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>Requires Node 8.6+ <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/79" rel="external nofollow noreferrer noopener">#79</a></li>
+</ul>
+<h3 id="Features" class="article-heading"><a href="#Features" class="headerlink" title="Features"></a>Features<a class="article-anchor" href="#Features" aria-hidden="true"></a></h3><ul>
+<li>Include official markdown-it plugins <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/52" rel="external nofollow noreferrer noopener">#52</a>, <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/86" rel="external nofollow noreferrer noopener">#86</a>, <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/87" rel="external nofollow noreferrer noopener">#87</a><ul>
+<li>They are disabled by default</li>
+<li>Included plugins:<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-abbr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-cjk-breaks</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-container</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-deflist</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-emoji</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-footnote</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-ins</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-mark</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sub</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sup</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>Include <a target="_blank" href="https://github.com/markdown-it/markdown-it-cjk-breaks" rel="external nofollow noreferrer noopener">markdown-it-cjk-breaks</a> plugin <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/56" rel="external nofollow noreferrer noopener">#56</a><ul>
+<li>To enable:<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-cjk-breaks</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>Add new options to <code>anchors:</code> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/95" rel="external nofollow noreferrer noopener">#95</a><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">case:</span> <span class="number">0</span> <span class="comment"># Set to 1 to transform anchors to lowercase, 2 for uppercase</span></span><br><span class="line">    <span class="attr">separator:</span> <span class="string">'-'</span> <span class="comment"># Replace the space with a dash, can be any character</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="Housekeeping" class="article-heading"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping<a class="article-anchor" href="#Housekeeping" aria-hidden="true"></a></h3><ul>
+<li>Update markdown-it from v8 to v10 <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/80" rel="external nofollow noreferrer noopener">#80</a>, <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/88" rel="external nofollow noreferrer noopener">#88</a></li>
+<li>Update mocha from v3 to v5 <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/60" rel="external nofollow noreferrer noopener">#60</a></li>
+</ul>
+
+  </div>
+</article>
+
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/toc.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>
