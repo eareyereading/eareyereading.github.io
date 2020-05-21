@@ -1,9 +1,14 @@
 <header id="banner" class="wrapper">
   <div class="inner">
-    <h2 id="banner-title">{{ page.subtitle }}</h2>
+    <h3 id="banner-title"><img src="/icon/site-logo.png" /></h3>
+    <h2 id="banner-subtitle">{{ page.subtitle }}</h2>
+    
+    <!--
     <div id="banner-start">
-      <span id="banner-start-command">npm install hexo-cli -g</span><a id="banner-start-link" href="help/"><i class="fa fa-arrow-right"></i></a>
+       <span id="banner-start-command">npm install hexo-cli -g</span><a id="banner-start-link" href="help/"><i class="fa fa-arrow-right"></i></a>
     </div>
+    -->
+
     <div id="banner-share">{{ partial('partial/share') }}</div>
   </div>
 </header>
