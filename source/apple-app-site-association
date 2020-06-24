@@ -1,0 +1,27 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+           {
+             "appID": "CFXE2VAEXJ.com.xuehu.words",
+             "paths": [ "/words/*" ]
+           },
+           {
+             "appID": "CFXE2VAEXJ.com.xuehu.eareye",
+             "paths": [ "/pro/*" ]
+           },
+           {
+             "appID": "CFXE2VAEXJ.com.xuehu.news",
+             "paths": [ "/news/*" ]
+           },
+           {
+             "appID": "CFXE2VAEXJ.com.xuehu.news.sixtysecondsscience",
+             "paths": [ "/sixtysecondsscience/*" ]
+           },
+           {
+             "appID": "CFXE2VAEXJ.com.xuehu.picturebookreader",
+             "paths": [ "/picturebook/*" ]
+           }
+       ]
+   }
+}
