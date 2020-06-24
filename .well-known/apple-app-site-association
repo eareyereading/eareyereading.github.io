@@ -1,0 +1,36 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "CFXE2VAEXJ.com.xuehu.words", "CFXE2VAEXJ.com.xuehu.eareye", "CFXE2VAEXJ.com.xuehu.news", "CFXE2VAEXJ.com.xuehu.news.sixtysecondsscience", "CFXE2VAEXJ.com.xuehu.picturebookreader" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/words/*",
+                  "comment": "Matches any URL for Words"
+               },
+               {
+                  "/": "/pro/*",
+                  "comment": "Matches any URL for Pro"
+               },
+               {
+                  "/": "/news/*",
+                  "comment": "Matches any URL for News"
+               },
+               {
+                  "/": "/sixtysecondsscience/*",
+                  "comment": "Matches any URL for 60s"
+               },
+               {
+                  "/": "/picturebook/*",
+                  "comment": "Matches any URL for PictureBook"
+               }
+             ]
+           }
+       ]
+   }
+}   
