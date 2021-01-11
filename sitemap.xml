@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/plugins</loc>
+    <loc>https://www.eareyereading.com/help/permalinks</loc>
     
     <lastmod>2020-05-19T08:21:29.385Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/permalinks</loc>
+    <loc>https://www.eareyereading.com/help/plugins</loc>
     
     <lastmod>2020-05-19T08:21:29.385Z</lastmod>
     
@@ -212,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/helpers</loc>
+    <loc>https://www.eareyereading.com/help/generating</loc>
     
     <lastmod>2020-05-19T08:21:29.383Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/generating</loc>
+    <loc>https://www.eareyereading.com/help/helpers</loc>
     
     <lastmod>2020-05-19T08:21:29.383Z</lastmod>
     
@@ -275,14 +275,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/configuration</loc>
+    <loc>https://www.eareyereading.com/help/commands</loc>
     
     <lastmod>2020-05-19T08:21:29.381Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/commands</loc>
+    <loc>https://www.eareyereading.com/help/configuration</loc>
     
     <lastmod>2020-05-19T08:21:29.381Z</lastmod>
     
@@ -303,14 +303,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/asset-folders</loc>
+    <loc>https://www.eareyereading.com/help/about-collins-freq</loc>
     
     <lastmod>2020-05-19T08:21:29.380Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/about-collins-freq</loc>
+    <loc>https://www.eareyereading.com/help/asset-folders</loc>
     
     <lastmod>2020-05-19T08:21:29.380Z</lastmod>
     
@@ -324,14 +324,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/</loc>
+    <loc>https://www.eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</loc>
     
     <lastmod>2020-05-19T08:21:29.379Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</loc>
+    <loc>https://www.eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/</loc>
     
     <lastmod>2020-05-19T08:21:29.379Z</lastmod>
     
@@ -352,14 +352,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/</loc>
+    <loc>https://www.eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/</loc>
     
     <lastmod>2020-05-19T08:21:29.378Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/</loc>
+    <loc>https://www.eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/</loc>
     
     <lastmod>2020-05-19T08:21:29.378Z</lastmod>
     
@@ -380,14 +380,14 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/</loc>
+    <loc>https://www.eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/</loc>
     
     <lastmod>2020-05-19T08:21:29.377Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/</loc>
+    <loc>https://www.eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/</loc>
     
     <lastmod>2020-05-19T08:21:29.377Z</lastmod>
     
