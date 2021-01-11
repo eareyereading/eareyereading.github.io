@@ -5,9 +5,9 @@
   <subtitle>一款专为英语学习者设计的阅读软件</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.eareyereading.com/"/>
+  <link href="https://eareyereading.com/"/>
   <updated>2020-05-19T08:21:29.379Z</updated>
-  <id>https://www.eareyereading.com/</id>
+  <id>https://eareyereading.com/</id>
   
   <author>
     <name>听阅</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo 4.2.1 &amp; official plugin hexo-fs 2.0.1 &amp; hexo-util 1.9.1 released</title>
-    <link href="https://www.eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/"/>
-    <id>https://www.eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/</id>
+    <link href="https://eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/"/>
+    <id>https://eareyereading.com/news/2020/05/14/hexo-4-2-1-hexo-fs-2-0-1-hexo-util-1-9-1/</id>
     <published>2020-05-14T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.379Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Official plugins hexo-util 2.1.0 and hexo-fs 3.0.1 released</title>
-    <link href="https://www.eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/"/>
-    <id>https://www.eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</id>
+    <link href="https://eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/"/>
+    <id>https://eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</id>
     <published>2020-04-30T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.379Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title>hexo-renderer-markdown-it 4.1.0 &amp; hexo-util 1.9.0 released</title>
-    <link href="https://www.eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/"/>
-    <id>https://www.eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/</id>
+    <link href="https://eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/"/>
+    <id>https://eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/</id>
     <published>2020-03-08T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.378Z</updated>
     
@@ -84,8 +84,8 @@
   
   <entry>
     <title>Speed is the Key - How We Make Hexo 30% Faster</title>
-    <link href="https://www.eareyereading.com/news/2019/12/24/how-we-make-hexo-30-percent-faster/"/>
-    <id>https://www.eareyereading.com/news/2019/12/24/how-we-make-hexo-30-percent-faster/</id>
+    <link href="https://eareyereading.com/news/2019/12/24/how-we-make-hexo-30-percent-faster/"/>
+    <id>https://eareyereading.com/news/2019/12/24/how-we-make-hexo-30-percent-faster/</id>
     <published>2019-12-24T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.378Z</updated>
     
@@ -107,8 +107,8 @@
   
   <entry>
     <title>Hexo 4.2.0, hexo-util 1.8.0 &amp; eslint-config-hexo 4.1.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/"/>
-    <id>https://www.eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/</id>
+    <link href="https://eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/"/>
+    <id>https://eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/</id>
     <published>2019-12-22T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.378Z</updated>
     
@@ -129,8 +129,8 @@
   
   <entry>
     <title>Official plugin hexo-renderer-markdown-it 4.0.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/"/>
-    <id>https://www.eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/</id>
+    <link href="https://eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/"/>
+    <id>https://eareyereading.com/news/2019/12/15/hexo-renderer-markdown-it-4/</id>
     <published>2019-12-15T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.378Z</updated>
     
@@ -151,8 +151,8 @@
   
   <entry>
     <title>Hexo 4.1.1, hexo-util 1.7.0 &amp; eslint-config-hexo 4.0.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/12/12/hexo-4-1-1_hexo-util-1-7_eslint-config-hexo-4/"/>
-    <id>https://www.eareyereading.com/news/2019/12/12/hexo-4-1-1_hexo-util-1-7_eslint-config-hexo-4/</id>
+    <link href="https://eareyereading.com/news/2019/12/12/hexo-4-1-1_hexo-util-1-7_eslint-config-hexo-4/"/>
+    <id>https://eareyereading.com/news/2019/12/12/hexo-4-1-1_hexo-util-1-7_eslint-config-hexo-4/</id>
     <published>2019-12-12T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.378Z</updated>
     
@@ -173,8 +173,8 @@
   
   <entry>
     <title>Hexo 4.1.0 Released</title>
-    <link href="https://www.eareyereading.com/news/2019/12/09/hexo-4-1-released/"/>
-    <id>https://www.eareyereading.com/news/2019/12/09/hexo-4-1-released/</id>
+    <link href="https://eareyereading.com/news/2019/12/09/hexo-4-1-released/"/>
+    <id>https://eareyereading.com/news/2019/12/09/hexo-4-1-released/</id>
     <published>2019-12-09T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.377Z</updated>
     
@@ -196,8 +196,8 @@
   
   <entry>
     <title>Official plugins hexo-util 1.6.0, hexo-generator-feed 2.2.0 &amp; hexo-uglify 1.1.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/11/28/hexo-util1-6_hexo-generator-feed-2-2_hexo-uglify-1-1/"/>
-    <id>https://www.eareyereading.com/news/2019/11/28/hexo-util1-6_hexo-generator-feed-2-2_hexo-uglify-1-1/</id>
+    <link href="https://eareyereading.com/news/2019/11/28/hexo-util1-6_hexo-generator-feed-2-2_hexo-uglify-1-1/"/>
+    <id>https://eareyereading.com/news/2019/11/28/hexo-util1-6_hexo-generator-feed-2-2_hexo-uglify-1-1/</id>
     <published>2019-11-28T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.377Z</updated>
     
@@ -218,8 +218,8 @@
   
   <entry>
     <title>Official plugins hexo-deployer-git 2.1.0, hexo-generator-feed 2.1.1 &amp; hexo-generator-sitemap 2.0.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/"/>
-    <id>https://www.eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/</id>
+    <link href="https://eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/"/>
+    <id>https://eareyereading.com/news/2019/11/22/hexo-deployer-git-2-1_hexo-generator-feed-2-1-1_hexo-generator-sitemap-2/</id>
     <published>2019-11-22T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.377Z</updated>
     
@@ -240,8 +240,8 @@
   
   <entry>
     <title>Official plugins hexo-generator-feed 2.1.0 &amp; hexo-util 1.5.0 released</title>
-    <link href="https://www.eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/"/>
-    <id>https://www.eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/</id>
+    <link href="https://eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/"/>
+    <id>https://eareyereading.com/news/2019/11/10/hexo-generator-feed-2-1_hexo-util-1-5/</id>
     <published>2019-11-10T00:00:00.000Z</published>
     <updated>2020-05-19T08:21:29.377Z</updated>
     
