@@ -23,8 +23,7 @@ highlight:
   enable: true
   line_number: false
 
-include:
-  - ".well-known/apple-app-site-association"
+include: [".well-known", ".nojekyll"]
 
 deploy:
   type: git
