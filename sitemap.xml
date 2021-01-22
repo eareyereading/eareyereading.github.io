@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://eareyereading.com/stock/commands</loc>
+    
+    <lastmod>2021-01-22T03:30:56.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/stock/functions</loc>
+    
+    <lastmod>2021-01-22T03:30:56.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/stock/functions.json</loc>
+    
+    <lastmod>2021-01-22T03:30:56.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/stock/taskpane</loc>
+    
+    <lastmod>2021-01-22T03:30:56.174Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/help/privacy</loc>
     
     <lastmod>2020-11-20T02:16:31.467Z</lastmod>
