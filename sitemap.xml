@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://eareyereading.com/zh-tw/help/baidu</loc>
+    
+    <lastmod>2022-09-28T05:52:48.736Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/3rd-source-help</loc>
+    
+    <lastmod>2022-09-28T05:52:31.707Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
+    
+    <lastmod>2022-09-28T05:52:15.052Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/tap-to-listen</loc>
+    
+    <lastmod>2022-09-28T05:51:40.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/readability</loc>
+    
+    <lastmod>2022-09-28T05:51:10.001Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/subscriptions</loc>
+    
+    <lastmod>2022-09-28T05:50:32.705Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/help/subscriptions</loc>
     
     <lastmod>2022-09-02T03:22:55.621Z</lastmod>
@@ -82,13 +124,6 @@
     <loc>https://eareyereading.com/zh-tw/help/gen-audio-books</loc>
     
     <lastmod>2021-08-19T07:37:40.177Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/zh-tw/help/baidu</loc>
-    
-    <lastmod>2021-08-19T07:37:26.246Z</lastmod>
     
   </url>
   
@@ -240,13 +275,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
-    
-    <lastmod>2021-08-19T06:45:53.901Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/help/dialyze-book</loc>
     
     <lastmod>2021-08-19T06:45:16.827Z</lastmod>
@@ -292,13 +320,6 @@
     <loc>https://eareyereading.com/zh-tw/help/about-collins-freq</loc>
     
     <lastmod>2021-08-19T06:30:25.557Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/zh-tw/help/3rd-source-help</loc>
-    
-    <lastmod>2021-08-19T06:26:57.662Z</lastmod>
     
   </url>
   
