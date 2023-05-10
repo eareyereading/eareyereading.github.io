@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://eareyereading.com/zh-tw/help/</loc>
+    
+    <lastmod>2023-05-10T11:37:57.649Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/</loc>
+    
+    <lastmod>2023-05-10T11:37:52.413Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/subscriptions</loc>
+    
+    <lastmod>2022-10-20T14:57:22.739Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/zh-tw/help/add-translation-chars</loc>
     
     <lastmod>2022-10-08T06:51:06.292Z</lastmod>
@@ -68,13 +89,6 @@
     <loc>https://eareyereading.com/zh-tw/help/subscriptions</loc>
     
     <lastmod>2022-09-28T05:50:32.705Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/subscriptions</loc>
-    
-    <lastmod>2022-09-02T03:22:55.621Z</lastmod>
     
   </url>
   
@@ -250,13 +264,6 @@
     <loc>https://eareyereading.com/zh-tw/help/lrc-adjust-timestamp</loc>
     
     <lastmod>2021-08-19T07:10:31.678Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/zh-tw/help/</loc>
-    
-    <lastmod>2021-08-19T07:09:33.943Z</lastmod>
     
   </url>
   
@@ -439,13 +446,6 @@
     <loc>https://eareyereading.com/help/make-lrc-book</loc>
     
     <lastmod>2020-06-30T03:22:05.915Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/</loc>
-    
-    <lastmod>2020-05-22T11:01:54.174Z</lastmod>
     
   </url>
   
