@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
+    
+    <lastmod>2023-05-10T12:02:12.355Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/dict-imports</loc>
+    
+    <lastmod>2023-05-10T12:01:06.103Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/zh-tw/help/</loc>
     
     <lastmod>2023-05-10T11:51:57.463Z</lastmod>
@@ -33,20 +47,6 @@
     <loc>https://eareyereading.com/help/add-translation-chars</loc>
     
     <lastmod>2022-10-08T06:50:48.109Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
-    
-    <lastmod>2022-09-30T03:22:10.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/dict-imports</loc>
-    
-    <lastmod>2022-09-30T03:21:38.855Z</lastmod>
     
   </url>
   
