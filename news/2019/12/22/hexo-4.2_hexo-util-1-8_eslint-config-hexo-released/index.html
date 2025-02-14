@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/index.html">
-  <!-- Alternative links -->
+  <link rel="canonical" href="https://eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/">
+  <!-- Alternate links -->
   
   <!-- Icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
@@ -25,22 +25,69 @@
   <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
-  <meta name="generator" content="Hexo 7.3.0">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   
 <link rel="stylesheet" href="/css/navy.css">
 
   <!-- endbuild -->
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"> -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
-</head>
+  <!-- Open Graph -->
+  <meta name="description" content="Hexo 4.2.0Features Cache rendered HTML is disabled by default in hexo-server #3963 It’s disabled so that any changes (particularly to the theme’s layout) can be previewed in real-time. If you use hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 4.2.0, hexo-util 1.8.0 &amp; eslint-config-hexo 4.1.0 released">
+<meta property="og:url" content="https://eareyereading.com/news/2019/12/22/hexo-4.2_hexo-util-1-8_eslint-config-hexo-released/">
+<meta property="og:site_name" content="听阅">
+<meta property="og:description" content="Hexo 4.2.0Features Cache rendered HTML is disabled by default in hexo-server #3963 It’s disabled so that any changes (particularly to the theme’s layout) can be previewed in real-time. If you use hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
+<meta property="article:published_time" content="2019-12-22T00:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-04T08:04:57.722Z">
+<meta property="article:author" content="听阅">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://eareyereading.com/icon/twitter-summary.png">
+  <!-- Google Analytics -->
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
   <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/"><span id="logo"></span><span>听阅</span></a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/" class="main-nav-link">主页</a><a href="/help/" class="main-nav-link">文档</a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="">
+        
+          <option value="zh-tw">繁體中文</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
     <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
@@ -53,36 +100,36 @@
   </header>
   <div class="article-content" itemprop="articleBody">
     <h2 id="Hexo-4-2-0" class="article-heading"><a href="#Hexo-4-2-0" class="headerlink" title="Hexo 4.2.0"></a>Hexo 4.2.0<a class="article-anchor" href="#Hexo-4-2-0" aria-hidden="true"></a></h2><h3 id="Features" class="article-heading"><a href="#Features" class="headerlink" title="Features"></a>Features<a class="article-anchor" href="#Features" aria-hidden="true"></a></h3><ul>
-<li><code>Cache rendered HTML</code> is disabled by default in hexo-server <a target="_blank" href="https://github.com/hexojs/hexo/pull/3963" rel="external nofollow noreferrer noopener">#3963</a><ul>
+<li><code>Cache rendered HTML</code> is disabled by default in hexo-server <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3963">#3963</a><ul>
 <li>It’s disabled so that any changes (particularly to the theme’s layout) can be previewed in real-time.</li>
 <li>If you use hexo-server in production environment to serve your website, it can be enabled by,<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">_config.yml</span></span><br><span class="line"><span class="attr">server:</span></span><br><span class="line">  <span class="attr">cache:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li>Add <code>min_depth:</code> option to <a target="_blank" href="https://hexo.io/docs/helpers#toc" rel="external nofollow noreferrer noopener"><code>toc()</code></a> helper <a target="_blank" href="https://github.com/hexojs/hexo/pull/3997" rel="external nofollow noreferrer noopener">#3997</a><ul>
-<li>Example usage:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- toc(page.content, &#123; <span class="attr">min_depth</span>: <span class="number">2</span> &#125;) %&gt;</span><br><span class="line"><span class="comment">// table of content would only include &lt;h2&gt;, &lt;h3&gt; and above</span></span><br></pre></td></tr></table></figure>
+<li>Add <code>min_depth:</code> option to <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/helpers#toc"><code>toc()</code></a> helper <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3997">#3997</a><ul>
+<li>Example usage:<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">toc</span>(page.<span class="property">content</span>, &#123; <span class="attr">min_depth</span>: <span class="number">2</span> &#125;) %&gt;</span><br><span class="line"><span class="comment">// table of content would only include &lt;h2&gt;, &lt;h3&gt; and above</span></span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
 </li>
 </ul>
 <h3 id="Fixes" class="article-heading"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes<a class="article-anchor" href="#Fixes" aria-hidden="true"></a></h3><ul>
-<li>Merges similar theme configs in main config and theme’s config <a target="_blank" href="https://github.com/hexojs/hexo/pull/3967" rel="external nofollow noreferrer noopener">#3967</a><ul>
-<li>For example:<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">_config.yml</span></span><br><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">a:</span></span><br><span class="line">    <span class="attr">b:</span> <span class="string">'foo'</span></span><br></pre></td></tr></table></figure></li>
-<li>Plus,<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">_config.yml</span> <span class="string">of</span> <span class="string">theme</span></span><br><span class="line"><span class="attr">a:</span></span><br><span class="line">  <span class="attr">c:</span> <span class="string">'bar'</span></span><br></pre></td></tr></table></figure></li>
-<li><a target="_blank" href="https://hexo.io/docs/variables#Global-Variables" rel="external nofollow noreferrer noopener"><code>theme</code></a> variable should have,<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">a: &#123;</span><br><span class="line">  b: &#39;foo&#39;,</span><br><span class="line">  c: &#39;bar&#39;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>Merges similar theme configs in main config and theme’s config <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3967">#3967</a><ul>
+<li>For example:<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">_config.yml</span></span><br><span class="line"><span class="attr">theme_config:</span></span><br><span class="line">  <span class="attr">a:</span></span><br><span class="line">    <span class="attr">b:</span> <span class="string">&#x27;foo&#x27;</span></span><br></pre></td></tr></table></figure></li>
+<li>Plus,<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="string">_config.yml</span> <span class="string">of</span> <span class="string">theme</span></span><br><span class="line"><span class="attr">a:</span></span><br><span class="line">  <span class="attr">c:</span> <span class="string">&#x27;bar&#x27;</span></span><br></pre></td></tr></table></figure></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/variables#Global-Variables"><code>theme</code></a> variable should have,<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">a: &#123;</span><br><span class="line">  b: &#x27;foo&#x27;,</span><br><span class="line">  c: &#x27;bar&#x27;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li>Fixes some caching issue <a target="_blank" href="https://github.com/hexojs/hexo/pull/3985" rel="external nofollow noreferrer noopener">#3985</a></li>
-<li><a target="_blank" href="https://hexo.io/docs/helpers#open-graph" rel="external nofollow noreferrer noopener">Open Graph</a> now applies all <a target="_blank" href="https://hexo.io/docs/configuration#URL" rel="external nofollow noreferrer noopener"><code>pretty_urls</code></a> options to <code>og:url</code> tag <a target="_blank" href="https://github.com/hexojs/hexo/pull/3983" rel="external nofollow noreferrer noopener">#3983</a></li>
+<li>Fixes some caching issue <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3985">#3985</a></li>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/helpers#open-graph">Open Graph</a> now applies all <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/configuration#URL"><code>pretty_urls</code></a> options to <code>og:url</code> tag <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3983">#3983</a></li>
 </ul>
 <h3 id="Refactor" class="article-heading"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor<a class="article-anchor" href="#Refactor" aria-hidden="true"></a></h3><ul>
-<li>No longer uses lodash <a target="_blank" href="https://github.com/hexojs/hexo/pull/3969" rel="external nofollow noreferrer noopener">#3969</a>, <a target="_blank" href="https://github.com/hexojs/hexo/pull/3987" rel="external nofollow noreferrer noopener">#3987</a>, <a target="_blank" href="https://github.com/hexojs/hexo/issues/3753" rel="external nofollow noreferrer noopener">#3753</a><ul>
-<li>Lodash <code>_</code> is still available as a <a target="_blank" href="https://hexo.io/docs/variables#Global-Variables" rel="external nofollow noreferrer noopener">global variable</a>, usually utilized in theme layout.</li>
+<li>No longer uses lodash <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3969">#3969</a>, <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3987">#3987</a>, <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/issues/3753">#3753</a><ul>
+<li>Lodash <code>_</code> is still available as a <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/variables#Global-Variables">global variable</a>, usually utilized in theme layout.</li>
 <li>However, we plan to completely drop it in the coming Hexo 5.0.0</li>
-<li>This <a target="_blank" href="https://github.com/orgs/hexojs/projects/5#card-27533837" rel="external nofollow noreferrer noopener">project page</a> includes all the relevant pull requests which you may find useful</li>
+<li>This <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/orgs/hexojs/projects/5#card-27533837">project page</a> includes all the relevant pull requests which you may find useful</li>
 </ul>
 </li>
-<li>Completely drops cheerio <a target="_blank" href="https://github.com/hexojs/hexo/pull/3850" rel="external nofollow noreferrer noopener">#3850</a>, <a target="_blank" href="https://github.com/hexojs/hexo/issues/3677" rel="external nofollow noreferrer noopener">#3677</a><ul>
+<li>Completely drops cheerio <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3850">#3850</a>, <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/issues/3677">#3677</a><ul>
 <li>This means Hexo no longer includes cheerio as part of its production dependencies (it’s still a development dependency)</li>
 <li>To continuing use cheerio,<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ npm install --save cheerio</span><br></pre></td></tr></table></figure>
 
@@ -91,28 +138,28 @@
 </li>
 </ul>
 <h2 id="hexo-util-1-8-0" class="article-heading"><a href="#hexo-util-1-8-0" class="headerlink" title="hexo-util 1.8.0"></a>hexo-util 1.8.0<a class="article-anchor" href="#hexo-util-1-8-0" aria-hidden="true"></a></h2><h3 id="Features-1" class="article-heading"><a href="#Features-1" class="headerlink" title="Features"></a>Features<a class="article-anchor" href="#Features-1" aria-hidden="true"></a></h3><ul>
-<li><a target="_blank" href="https://github.com/hexojs/hexo-util#tocobjstr-options" rel="external nofollow noreferrer noopener"><code>tocObj()</code></a> to convert headings (e.g. <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" rel="external nofollow noreferrer noopener"><code>&lt;h1&gt;</code></a>) in html into JSON format <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/137" rel="external nofollow noreferrer noopener">#137</a><ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util#tocobjstr-options"><code>tocObj()</code></a> to convert headings (e.g. <a target="_blank" rel="noopener external nofollow noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h1&gt;</code></a>) in html into JSON format <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/137">#137</a><ul>
 <li>Enables headings to be programmatically parsed and manipulated.</li>
-<li>Created mainly to be used by the <a target="_blank" href="https://hexo.io/docs/helpers#toc" rel="external nofollow noreferrer noopener"><code>toc()</code></a> helper (ref <a target="_blank" href="https://github.com/hexojs/hexo/pull/3850" rel="external nofollow noreferrer noopener">hexojs/hexo#3850</a>).</li>
+<li>Created mainly to be used by the <a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/docs/helpers#toc"><code>toc()</code></a> helper (ref <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/pull/3850">hexojs/hexo#3850</a>).</li>
 </ul>
 </li>
-<li><a target="_blank" href="https://github.com/hexojs/hexo-util/#cache" rel="external nofollow noreferrer noopener"><code>Cache()</code></a> class utility <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/162" rel="external nofollow noreferrer noopener">#162</a><ul>
+<li><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/#cache"><code>Cache()</code></a> class utility <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/162">#162</a><ul>
 <li>Mainly to cache user config to avoid unnecessary parsing</li>
 <li>We have started utilizing caching on many utilities and resulted in up to 20% better performance.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Fixes-1" class="article-heading"><a href="#Fixes-1" class="headerlink" title="Fixes"></a>Fixes<a class="article-anchor" href="#Fixes-1" aria-hidden="true"></a></h3><ul>
-<li>In <a target="_blank" href="https://github.com/hexojs/hexo-util#htmltagtag-attrs-text-escape" rel="external nofollow noreferrer noopener"><code>htmlTag()</code></a>, url in <code>&lt;meta&gt;</code> tags (in Facebook Open Graph and Twitter Card) are now percent-encoded, instead of html-escaped. <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/159" rel="external nofollow noreferrer noopener">#159</a><ul>
-<li>url in <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img" rel="external nofollow noreferrer noopener">srcset</a> attribute is now encoded using <a target="_blank" href="https://github.com/hexojs/hexo-util#encodeurlstr" rel="external nofollow noreferrer noopener"><code>encodeURL()</code></a> which supports more url types, instead of encodeURI. <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/160" rel="external nofollow noreferrer noopener">#160</a></li>
+<li>In <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util#htmltagtag-attrs-text-escape"><code>htmlTag()</code></a>, url in <code>&lt;meta&gt;</code> tags (in Facebook Open Graph and Twitter Card) are now percent-encoded, instead of html-escaped. <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/159">#159</a><ul>
+<li>url in <a target="_blank" rel="noopener external nofollow noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img">srcset</a> attribute is now encoded using <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util#encodeurlstr"><code>encodeURL()</code></a> which supports more url types, instead of encodeURI. <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/160">#160</a></li>
 </ul>
 </li>
 </ul>
 <h2 id="eslint-config-hexo-4-1-0" class="article-heading"><a href="#eslint-config-hexo-4-1-0" class="headerlink" title="eslint-config-hexo 4.1.0"></a>eslint-config-hexo 4.1.0<a class="article-anchor" href="#eslint-config-hexo-4-1-0" aria-hidden="true"></a></h2><ul>
-<li>must have a space between <code>async</code> and arrow function <a target="_blank" href="https://github.com/hexojs/eslint-config-hexo/pull/28" rel="external nofollow noreferrer noopener">#28</a><ul>
-<li>using <a target="_blank" href="https://eslint.org/docs/rules/space-before-function-paren" rel="external nofollow noreferrer noopener"><code>space-before-function-paren</code></a> rule</li>
-<li>incorrect<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> foo = <span class="keyword">async</span>(a) =&gt; <span class="keyword">await</span> a</span><br></pre></td></tr></table></figure></li>
-<li>correct<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> foo = <span class="keyword">async</span> (a) =&gt; <span class="keyword">await</span> a</span><br></pre></td></tr></table></figure>
+<li>must have a space between <code>async</code> and arrow function <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/eslint-config-hexo/pull/28">#28</a><ul>
+<li>using <a target="_blank" rel="noopener external nofollow noreferrer" href="https://eslint.org/docs/rules/space-before-function-paren"><code>space-before-function-paren</code></a> rule</li>
+<li>incorrect<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">foo</span> = <span class="keyword">async</span> (<span class="params">a</span>) =&gt; <span class="keyword">await</span> a;</span><br></pre></td></tr></table></figure></li>
+<li>correct<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title function_">foo</span> = <span class="keyword">async</span> (<span class="params">a</span>) =&gt; <span class="keyword">await</span> a;</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
@@ -120,21 +167,56 @@
 </ul>
 
   </div>
+  
 </article>
 
     </div>
   </div>
 </div>
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      Copyright &copy; 2025 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">听阅</a> 保留所有权利。<br>
+    </div>
+    <div id="footer-links">
+      
+        <a href="/help/privacy.html" class="footer-link" >隐私声明</a>
+      
+        <a href="/help/copyright.html" class="footer-link" >内容合作</a>
+      
+    </div>
   </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/" class="mobile-nav-link">主页</a><a href="/help/" class="mobile-nav-link">文档</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="">
+      
+        <option value="zh-tw">繁體中文</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
   <!-- Scripts -->
 <!-- Cookie -->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <!-- build:js build/js/main.js -->
 
 <script src="/js/lang_select.js"></script>
-
-
-<script src="/js/toc.js"></script>
 
 
 <script src="/js/mobile_nav.js"></script>

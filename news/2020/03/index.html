@@ -2,12 +2,12 @@
 <html lang="zh-cn">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>News | 听阅</title>
+  <title>听阅</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://eareyereading.com/news/2020/03/index.html">
-  <!-- Alternative links -->
+  <link rel="canonical" href="https://eareyereading.com/en/news/2020/03/">
+  <!-- Alternate links -->
   
   <!-- Icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
@@ -25,24 +25,68 @@
   <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
-  <meta name="generator" content="Hexo 7.3.0">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   
 <link rel="stylesheet" href="/css/navy.css">
 
   <!-- endbuild -->
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"> -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
-</head>
+  <!-- Open Graph -->
+  <meta name="description" content="专为英语学习者设计的阅读软件。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="听阅">
+<meta property="og:url" content="https://eareyereading.com/news/2020/03/">
+<meta property="og:site_name" content="听阅">
+<meta property="og:description" content="专为英语学习者设计的阅读软件。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
+<meta property="article:author" content="听阅">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://eareyereading.com/icon/twitter-summary.png">
+  <!-- Google Analytics -->
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
   <div id="container">
-    
-<div id="content-wrap">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/"><span id="logo"></span><span>听阅</span></a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/" class="main-nav-link">主页</a><a href="/help/" class="main-nav-link">文档</a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="">
+        
+          <option value="zh-tw">繁體中文</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
       
@@ -58,44 +102,45 @@
   </header>
   <div class="article-content" itemprop="articleBody">
     <h2 id="hexo-renderer-markdown-it-4-1-0" class="article-heading"><a href="#hexo-renderer-markdown-it-4-1-0" class="headerlink" title="hexo-renderer-markdown-it 4.1.0"></a>hexo-renderer-markdown-it 4.1.0<a class="article-anchor" href="#hexo-renderer-markdown-it-4-1-0" aria-hidden="true"></a></h2><h3 id="Feature" class="article-heading"><a href="#Feature" class="headerlink" title="Feature"></a>Feature<a class="article-anchor" href="#Feature" aria-hidden="true"></a></h3><ul>
-<li><code>permalinkSide</code> option <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/105" rel="external nofollow noreferrer noopener">#105</a>. </li>
+<li><code>permalinkSide</code> option <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/curbengh">@curbengh</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/105">#105</a>.</li>
 </ul>
 <p>By default, when <code>permalink</code> option is enabled, the permalink symbol is prepended before each heading. If you prefer to append to the end of each heading:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">permalinkSide:</span> <span class="string">'right'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">anchors:</span></span><br><span class="line">    <span class="attr">permalink:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">permalinkSide:</span> <span class="string">&quot;right&quot;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Housekeeping" class="article-heading"><a href="#Housekeeping" class="headerlink" title="Housekeeping"></a>Housekeeping<a class="article-anchor" href="#Housekeeping" aria-hidden="true"></a></h3><ul>
-<li>Remove unneeded <code>sluggo</code> dependency <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/99" rel="external nofollow noreferrer noopener">#99</a>.<ul>
-<li>It has been replaced by hexo-util’s slugize <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/95" rel="external nofollow noreferrer noopener">#95</a>.</li>
+<li>Remove unneeded <code>sluggo</code> dependency <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/curbengh">@curbengh</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/99">#99</a>.<ul>
+<li>It has been replaced by hexo-util’s slugize <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/curbengh">@curbengh</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/95">#95</a>.</li>
 </ul>
 </li>
-<li>Update nyc from 14.1.1 to 15.0.0 <a target="_blank" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/100" rel="external nofollow noreferrer noopener">#100</a></li>
+<li>Update nyc from 14.1.1 to 15.0.0 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-renderer-markdown-it/pull/100">#100</a></li>
 </ul>
 <hr>
 <h2 id="hexo-util-1-9-0" class="article-heading"><a href="#hexo-util-1-9-0" class="headerlink" title="hexo-util 1.9.0"></a>hexo-util 1.9.0<a class="article-anchor" href="#hexo-util-1-9-0" aria-hidden="true"></a></h2><h3 id="Features" class="article-heading"><a href="#Features" class="headerlink" title="Features"></a>Features<a class="article-anchor" href="#Features" aria-hidden="true"></a></h3><ul>
-<li>feat(prism): add data-language attribute <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/177" rel="external nofollow noreferrer noopener">#177</a></li>
-<li>feat(prism): add mark &amp; firstLine option support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/172" rel="external nofollow noreferrer noopener">#172</a></li>
-<li>feat: bring up prism highlight support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/168" rel="external nofollow noreferrer noopener">#168</a><ul>
-<li>Laying the groundwork for the planned support of <a target="_blank" href="https://prismjs.com/" rel="external nofollow noreferrer noopener">prism</a> highlight library in the upcoming Hexo v5, in addition to the current <a target="_blank" href="https://highlightjs.org/" rel="external nofollow noreferrer noopener">highlight.js</a> library.</li>
+<li>feat(prism): add data-language attribute <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/177">#177</a></li>
+<li>feat(prism): add mark &amp; firstLine option support <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/172">#172</a></li>
+<li>feat: bring up prism highlight support <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/168">#168</a><ul>
+<li>Laying the groundwork for the planned support of <a target="_blank" rel="noopener external nofollow noreferrer" href="https://prismjs.com/">prism</a> highlight library in the upcoming Hexo v5, in addition to the current <a target="_blank" rel="noopener external nofollow noreferrer" href="https://highlightjs.org/">highlight.js</a> library.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Fixes" class="article-heading"><a href="#Fixes" class="headerlink" title="Fixes"></a>Fixes<a class="article-anchor" href="#Fixes" aria-hidden="true"></a></h3><ul>
-<li>fix(is_external_link): handle invalid url <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/183" rel="external nofollow noreferrer noopener">#183</a></li>
-<li>fix(prism): add strip_indent support <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/184" rel="external nofollow noreferrer noopener">#184</a></li>
-<li>fix(tocObj): skip permalink symbol  <a target="_blank" href="https://github.com/curbengh" rel="external nofollow noreferrer noopener">@curbengh</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/175" rel="external nofollow noreferrer noopener">#175</a></li>
-<li>Fix highlighting when hljs=true <a target="_blank" href="https://github.com/ppwwyyxx" rel="external nofollow noreferrer noopener">@ppwwyyxx</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/171" rel="external nofollow noreferrer noopener">#171</a></li>
-<li>htmlTag - toString() before match() for scalar values. <a target="_blank" href="https://github.com/KentarouTakeda" rel="external nofollow noreferrer noopener">@KentarouTakeda</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/176" rel="external nofollow noreferrer noopener">#176</a></li>
+<li>fix(is_external_link): handle invalid url <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/183">#183</a></li>
+<li>fix(prism): add strip_indent support <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/184">#184</a></li>
+<li>fix(tocObj): skip permalink symbol <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/curbengh">@curbengh</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/175">#175</a></li>
+<li>Fix highlighting when hljs=true <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/ppwwyyxx">@ppwwyyxx</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/171">#171</a></li>
+<li>htmlTag - toString() before match() for scalar values. <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/KentarouTakeda">@KentarouTakeda</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/176">#176</a></li>
 </ul>
 <h3 id="Refactor" class="article-heading"><a href="#Refactor" class="headerlink" title="Refactor"></a>Refactor<a class="article-anchor" href="#Refactor" aria-hidden="true"></a></h3><ul>
-<li>refactor: optimize cache <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/170" rel="external nofollow noreferrer noopener">#170</a></li>
-<li>refactor(highlight): add strip-indent <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/169" rel="external nofollow noreferrer noopener">#169</a></li>
-<li>refactor(toc_obj): simplify the code <a target="_blank" href="https://github.com/SukkaW" rel="external nofollow noreferrer noopener">@SukkaW</a> <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/181" rel="external nofollow noreferrer noopener">#181</a></li>
+<li>refactor: optimize cache <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/170">#170</a></li>
+<li>refactor(highlight): add strip-indent <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/169">#169</a></li>
+<li>refactor(toc_obj): simplify the code <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/SukkaW">@SukkaW</a> <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/181">#181</a></li>
 </ul>
 <h3 id="Dependencies" class="article-heading"><a href="#Dependencies" class="headerlink" title="Dependencies"></a>Dependencies<a class="article-anchor" href="#Dependencies" aria-hidden="true"></a></h3><ul>
-<li>chore(deps-dev): bump mocha from 6.2.2 to 7.0.0 <a target="_blank" href="https://github.com/hexojs/hexo-util/pull/173" rel="external nofollow noreferrer noopener">#173</a></li>
+<li>chore(deps-dev): bump mocha from 6.2.2 to 7.0.0 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-util/pull/173">#173</a></li>
 </ul>
 
   </div>
+  
 </article>
 
         
@@ -103,16 +148,50 @@
     </div>
   </div>
 </div>
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      Copyright &copy; 2025 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">听阅</a> 保留所有权利。<br>
+    </div>
+    <div id="footer-links">
+      
+        <a href="/help/privacy.html" class="footer-link" >隐私声明</a>
+      
+        <a href="/help/copyright.html" class="footer-link" >内容合作</a>
+      
+    </div>
   </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/" class="mobile-nav-link">主页</a><a href="/help/" class="mobile-nav-link">文档</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="">
+      
+        <option value="zh-tw">繁體中文</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
   <!-- Scripts -->
 <!-- Cookie -->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <!-- build:js build/js/main.js -->
 
 <script src="/js/lang_select.js"></script>
-
-
-<script src="/js/toc.js"></script>
 
 
 <script src="/js/mobile_nav.js"></script>

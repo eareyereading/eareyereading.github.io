@@ -2,18 +2,21 @@
 <html lang="zh-cn">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>辅助函数（Helpers） | 听阅</title>
+  <title>听阅</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://eareyereading.com/help/helpers.html">
-  <!-- Alternative links -->
+  <link rel="canonical" href="https://eareyereading.com/help/helpers">
+  <!-- Alternate links -->
   
     
-      <link rel="alternative" hreflang="zh-tw" href="https://eareyereading.com/zh-tw/help/helpers">
+      
+        <link rel="alternate" hreflang="zh-tw" href="https://eareyereading.com/zh-tw/help/helpers">
+      
     
-      <link rel="alternative" hreflang="zh-cn" href="https://eareyereading.com/zh-cn/help/helpers">
+      
     
+    <link rel="alternate" hreflang="x-default" href="https://eareyereading.com/en/help/helpers" />
   
   <!-- Icon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
@@ -31,22 +34,69 @@
   <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
-  <meta name="generator" content="Hexo 7.3.0">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   
 <link rel="stylesheet" href="/css/navy.css">
 
   <!-- endbuild -->
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css"> -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> -->
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
-</head>
+  <!-- Open Graph -->
+  <meta name="description" content="title: 辅助函数（Helpers）辅助函数帮助您在模版中快速插入内容。辅助函数不能在源文件中使用。 网址url_for在路径前加上根路径，从 Hexo 2.7 开始您应该使用此函数而不是 config.root + path。 &lt;%- url_for(path) %&gt;  relative_url取得与 from 相对的 to 路径。 &lt;%- relative_url(fro">
+<meta property="og:type" content="website">
+<meta property="og:title" content="听阅">
+<meta property="og:url" content="https://eareyereading.com/help/helpers">
+<meta property="og:site_name" content="听阅">
+<meta property="og:description" content="title: 辅助函数（Helpers）辅助函数帮助您在模版中快速插入内容。辅助函数不能在源文件中使用。 网址url_for在路径前加上根路径，从 Hexo 2.7 开始您应该使用此函数而不是 config.root + path。 &lt;%- url_for(path) %&gt;  relative_url取得与 from 相对的 to 路径。 &lt;%- relative_url(fro">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
+<meta property="article:published_time" content="2025-01-04T08:04:57.730Z">
+<meta property="article:modified_time" content="2025-01-04T08:04:57.730Z">
+<meta property="article:author" content="听阅">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://eareyereading.com/icon/twitter-summary.png">
+  <!-- Google Analytics -->
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
   <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/"><span id="logo"></span><span>听阅</span></a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/" class="main-nav-link">主页</a><a href="/help/" class="main-nav-link">文档</a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="help/helpers.html">
+        
+          <option value="zh-tw">繁體中文</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
     <div id="content-wrap">
   <div id="content" class="wrapper">
     <div id="content-inner">
@@ -55,36 +105,39 @@
           <div class="article">
             <div class="inner">
               <header class="article-header">
-                <h1 class="article-title" itemprop="name">辅助函数（Helpers）</h1>
+                <h1 class="article-title" itemprop="name"></h1>
+                <!--
+                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/help/helpers.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+                -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>辅助函数帮助您在模版中快速插入内容。辅助函数不能在源文件中使用。</p>
+                <h2 id="title-辅助函数（Helpers）" class="article-heading"><a href="#title-辅助函数（Helpers）" class="headerlink" title="title: 辅助函数（Helpers）"></a>title: 辅助函数（Helpers）<a class="article-anchor" href="#title-辅助函数（Helpers）" aria-hidden="true"></a></h2><p>辅助函数帮助您在模版中快速插入内容。辅助函数不能在源文件中使用。</p>
 <h2 id="网址" class="article-heading"><a href="#网址" class="headerlink" title="网址"></a>网址<a class="article-anchor" href="#网址" aria-hidden="true"></a></h2><h3 id="url-for" class="article-heading"><a href="#url-for" class="headerlink" title="url_for"></a>url_for<a class="article-anchor" href="#url-for" aria-hidden="true"></a></h3><p>在路径前加上根路径，从 Hexo 2.7 开始您应该使用此函数而不是 <code>config.root + path</code>。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- url_for(path) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">url_for</span>(path) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="relative-url" class="article-heading"><a href="#relative-url" class="headerlink" title="relative_url"></a>relative_url<a class="article-anchor" href="#relative-url" aria-hidden="true"></a></h3><p>取得与 <code>from</code> 相对的 <code>to</code> 路径。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- relative_url(<span class="keyword">from</span>, to) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">relative_url</span>(<span class="keyword">from</span>, to) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="gravatar" class="article-heading"><a href="#gravatar" class="headerlink" title="gravatar"></a>gravatar<a class="article-anchor" href="#gravatar" aria-hidden="true"></a></h3><p>插入 Gravatar 图片。<br>如果您不指定 <code>options</code> 参数，将会应用默认参数。否则，您可以将其设置为一个数字，这个数字将会作为 Gravatar 的大小参数。最后，如果您设置它一个对象，它将会被转换为 Gravatar 的一个查询字符串参数。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- gravatar(email, [options]);</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">gravatar</span>(email, [options]);</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- gravatar(<span class="string">'a@abc.com'</span>) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787</span></span><br><span class="line"></span><br><span class="line">&lt;%- gravatar(<span class="string">'a@abc.com'</span>, <span class="number">40</span>) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787?s=40</span></span><br><span class="line"></span><br><span class="line">&lt;%- gravatar(<span class="string">'a@abc.com'</span> &#123;<span class="attr">s</span>: <span class="number">40</span>, <span class="attr">d</span>: <span class="string">'http://example.com/image.png'</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787?s=40&amp;d=http%3A%2F%2Fexample.com%2Fimage.png</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">gravatar</span>(<span class="string">&#x27;a@abc.com&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">gravatar</span>(<span class="string">&#x27;a@abc.com&#x27;</span>, <span class="number">40</span>) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787?s=40</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">gravatar</span>(<span class="string">&#x27;a@abc.com&#x27;</span> &#123;<span class="attr">s</span>: <span class="number">40</span>, <span class="attr">d</span>: <span class="string">&#x27;http://example.com/image.png&#x27;</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// http://www.gravatar.com/avatar/b9b00e66c6b8a70f88c73cb6bdb06787?s=40&amp;d=http%3A%2F%2Fexample.com%2Fimage.png</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="HTML-标签" class="article-heading"><a href="#HTML-标签" class="headerlink" title="HTML 标签"></a>HTML 标签<a class="article-anchor" href="#HTML-标签" aria-hidden="true"></a></h2><h3 id="css" class="article-heading"><a href="#css" class="headerlink" title="css"></a>css<a class="article-anchor" href="#css" aria-hidden="true"></a></h3><p>载入 CSS 文件。<code>path</code> 可以是数组或字符串，如果 <code>path</code> 开头不是 <code>/</code> 或任何协议，则会自动加上根路径；如果后面没有加上 <code>.css</code> 扩展名的话，也会自动加上。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- css(path, ...) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">css</span>(path, ...) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- css(<span class="string">'style.css'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;link rel="stylesheet" href="/style.css" type="text/css"&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- css([<span class="string">'style.css'</span>, <span class="string">'screen.css'</span>]) %&gt;</span><br><span class="line"><span class="comment">// &lt;link rel="stylesheet" href="/style.css" type="text/css"&gt;</span></span><br><span class="line"><span class="comment">// &lt;link rel="stylesheet" href="/screen.css" type="text/css"&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">css</span>(<span class="string">&#x27;style.css&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;link rel=&quot;stylesheet&quot; href=&quot;/style.css&quot; type=&quot;text/css&quot;&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">css</span>([<span class="string">&#x27;style.css&#x27;</span>, <span class="string">&#x27;screen.css&#x27;</span>]) %&gt;</span><br><span class="line"><span class="comment">// &lt;link rel=&quot;stylesheet&quot; href=&quot;/style.css&quot; type=&quot;text/css&quot;&gt;</span></span><br><span class="line"><span class="comment">// &lt;link rel=&quot;stylesheet&quot; href=&quot;/screen.css&quot; type=&quot;text/css&quot;&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="js" class="article-heading"><a href="#js" class="headerlink" title="js"></a>js<a class="article-anchor" href="#js" aria-hidden="true"></a></h3><p>载入 JavaScript 文件。<code>path</code> 可以是数组或字符串，如果 <code>path</code> 开头不是 <code>/</code> 或任何协议，则会自动加上根路径；如果后面没有加上 <code>.js</code> 扩展名的话，也会自动加上。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- js(path, ...) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">js</span>(path, ...) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- js(<span class="string">'script.js'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;script type="text/javascript" src="/script.js"&gt;&lt;/script&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- js([<span class="string">'script.js'</span>, <span class="string">'gallery.js'</span>]) %&gt;</span><br><span class="line"><span class="comment">// &lt;script type="text/javascript" src="/script.js"&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="comment">// &lt;script type="text/javascript" src="/gallery.js"&gt;&lt;/script&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">js</span>(<span class="string">&#x27;script.js&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;script type=&quot;text/javascript&quot; src=&quot;/script.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">js</span>([<span class="string">&#x27;script.js&#x27;</span>, <span class="string">&#x27;gallery.js&#x27;</span>]) %&gt;</span><br><span class="line"><span class="comment">// &lt;script type=&quot;text/javascript&quot; src=&quot;/script.js&quot;&gt;&lt;/script&gt;</span></span><br><span class="line"><span class="comment">// &lt;script type=&quot;text/javascript&quot; src=&quot;/gallery.js&quot;&gt;&lt;/script&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="link-to" class="article-heading"><a href="#link-to" class="headerlink" title="link_to"></a>link_to<a class="article-anchor" href="#link-to" aria-hidden="true"></a></h3><p>插入链接。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- link_to(path, [text], [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">link_to</span>(path, [text], [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -111,10 +164,10 @@
 </tr>
 </tbody></table>
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- link_to(<span class="string">'http://www.google.com'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href="http://www.google.com" title="http://www.google.com"&gt;http://www.google.com&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- link_to(<span class="string">'http://www.google.com'</span>, <span class="string">'Google'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href="http://www.google.com" title="Google"&gt;Google&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- link_to(<span class="string">'http://www.google.com'</span>, <span class="string">'Google'</span>, &#123;<span class="attr">external</span>: <span class="literal">true</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href="http://www.google.com" title="Google" target="_blank" rel="external"&gt;Google&lt;/a&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">link_to</span>(<span class="string">&#x27;http://www.google.com&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href=&quot;http://www.google.com&quot; title=&quot;http://www.google.com&quot;&gt;http://www.google.com&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">link_to</span>(<span class="string">&#x27;http://www.google.com&#x27;</span>, <span class="string">&#x27;Google&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href=&quot;http://www.google.com&quot; title=&quot;Google&quot;&gt;Google&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">link_to</span>(<span class="string">&#x27;http://www.google.com&#x27;</span>, <span class="string">&#x27;Google&#x27;</span>, &#123;<span class="attr">external</span>: <span class="literal">true</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href=&quot;http://www.google.com&quot; title=&quot;Google&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Google&lt;/a&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="mail-to" class="article-heading"><a href="#mail-to" class="headerlink" title="mail_to"></a>mail_to<a class="article-anchor" href="#mail-to" aria-hidden="true"></a></h3><p>插入电子邮箱链接。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- mail_to(path, [text], [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">mail_to</span>(path, [text], [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -149,10 +202,10 @@
 </tr>
 </tbody></table>
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- mail_to(<span class="string">'a@abc.com'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href="mailto:a@abc.com" title="a@abc.com"&gt;a@abc.com&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- mail_to(<span class="string">'a@abc.com'</span>, <span class="string">'Email'</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href="mailto:a@abc.com" title="Email"&gt;Email&lt;/a&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">mail_to</span>(<span class="string">&#x27;a@abc.com&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href=&quot;mailto:a@abc.com&quot; title=&quot;a@abc.com&quot;&gt;a@abc.com&lt;/a&gt;</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">mail_to</span>(<span class="string">&#x27;a@abc.com&#x27;</span>, <span class="string">&#x27;Email&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// &lt;a href=&quot;mailto:a@abc.com&quot; title=&quot;Email&quot;&gt;Email&lt;/a&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="image-tag" class="article-heading"><a href="#image-tag" class="headerlink" title="image_tag"></a>image_tag<a class="article-anchor" href="#image-tag" aria-hidden="true"></a></h3><p>插入图片。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- image_tag(path, [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">image_tag</span>(path, [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -183,10 +236,10 @@
 </tr>
 </tbody></table>
 <h3 id="favicon-tag" class="article-heading"><a href="#favicon-tag" class="headerlink" title="favicon_tag"></a>favicon_tag<a class="article-anchor" href="#favicon-tag" aria-hidden="true"></a></h3><p>插入 favicon。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- favicon_tag(path) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">favicon_tag</span>(path) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="feed-tag" class="article-heading"><a href="#feed-tag" class="headerlink" title="feed_tag"></a>feed_tag<a class="article-anchor" href="#feed-tag" aria-hidden="true"></a></h3><p>插入 feed 链接。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- feed_tag(path, [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">feed_tag</span>(path, [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -208,67 +261,67 @@
 </tr>
 </tbody></table>
 <h2 id="条件函数" class="article-heading"><a href="#条件函数" class="headerlink" title="条件函数"></a>条件函数<a class="article-anchor" href="#条件函数" aria-hidden="true"></a></h2><h3 id="is-current" class="article-heading"><a href="#is-current" class="headerlink" title="is_current"></a>is_current<a class="article-anchor" href="#is-current" aria-hidden="true"></a></h3><p>检查 <code>path</code> 是否符合目前页面的网址。开启 <code>strict</code> 选项启用严格比对。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_current(path, [strict]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_current</span>(path, [strict]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-home" class="article-heading"><a href="#is-home" class="headerlink" title="is_home"></a>is_home<a class="article-anchor" href="#is-home" aria-hidden="true"></a></h3><p>检查目前是否为首页。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_home() %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_home</span>() %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-post" class="article-heading"><a href="#is-post" class="headerlink" title="is_post"></a>is_post<a class="article-anchor" href="#is-post" aria-hidden="true"></a></h3><p>检查目前是否为文章。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_post() %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_post</span>() %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-archive" class="article-heading"><a href="#is-archive" class="headerlink" title="is_archive"></a>is_archive<a class="article-anchor" href="#is-archive" aria-hidden="true"></a></h3><p>检查目前是否为存档页面。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_archive() %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_archive</span>() %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-year" class="article-heading"><a href="#is-year" class="headerlink" title="is_year"></a>is_year<a class="article-anchor" href="#is-year" aria-hidden="true"></a></h3><p>检查目前是否为年度归档页面。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_year() %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_year</span>() %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-month" class="article-heading"><a href="#is-month" class="headerlink" title="is_month"></a>is_month<a class="article-anchor" href="#is-month" aria-hidden="true"></a></h3><p>检查目前是否为月度归档页面。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_month() %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_month</span>() %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-category" class="article-heading"><a href="#is-category" class="headerlink" title="is_category"></a>is_category<a class="article-anchor" href="#is-category" aria-hidden="true"></a></h3><p>检查目前是否为分类归档页面。<br>如果给定一个字符串作为参数，将会检查目前是否为指定分类。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_category() %&gt;</span><br><span class="line">&lt;%- is_category(<span class="string">'hobby'</span>) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_category</span>() %&gt;</span><br><span class="line">&lt;%- <span class="title function_">is_category</span>(<span class="string">&#x27;hobby&#x27;</span>) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="is-tag" class="article-heading"><a href="#is-tag" class="headerlink" title="is_tag"></a>is_tag<a class="article-anchor" href="#is-tag" aria-hidden="true"></a></h3><p>检查目前是否为标签归档页面。<br>如果给定一个字符串作为参数，将会检查目前是否为指定标签。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- is_tag() %&gt;</span><br><span class="line">&lt;%- is_tag(<span class="string">'hobby'</span>) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">is_tag</span>() %&gt;</span><br><span class="line">&lt;%- <span class="title function_">is_tag</span>(<span class="string">&#x27;hobby&#x27;</span>) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h2 id="字符串处理" class="article-heading"><a href="#字符串处理" class="headerlink" title="字符串处理"></a>字符串处理<a class="article-anchor" href="#字符串处理" aria-hidden="true"></a></h2><h3 id="trim" class="article-heading"><a href="#trim" class="headerlink" title="trim"></a>trim<a class="article-anchor" href="#trim" aria-hidden="true"></a></h3><p>清除字符串开头和结尾的空格。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- trim(string) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">trim</span>(string) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="strip-html" class="article-heading"><a href="#strip-html" class="headerlink" title="strip_html"></a>strip_html<a class="article-anchor" href="#strip-html" aria-hidden="true"></a></h3><p>清除字符串中的 HTML 标签。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- strip_html(string) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">strip_html</span>(string) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- strip_html(<span class="string">'It'</span>s not &lt;b&gt;important&lt;/b&gt; anymore!<span class="string">') %&gt;</span></span><br><span class="line"><span class="string">// It'</span>s not important anymore!</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">strip_html</span>(<span class="string">&#x27;It&#x27;</span>s not &lt;b&gt;important&lt;/b&gt; anymore!<span class="string">&#x27;) %&gt;</span></span><br><span class="line"><span class="string">// It&#x27;</span>s not important anymore!</span><br></pre></td></tr></table></figure>
 
 <h3 id="titlecase" class="article-heading"><a href="#titlecase" class="headerlink" title="titlecase"></a>titlecase<a class="article-anchor" href="#titlecase" aria-hidden="true"></a></h3><p>把字符串转换为正确的 Title case。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- titlecase(string) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">titlecase</span>(string) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight"><table><tr><td class="code"><pre><span class="line">&lt;%- titlecase(<span class="string">'this is an apple'</span>) %&gt;</span><br><span class="line"># This is an Apple</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">titlecase</span>(<span class="string">&#x27;this is an apple&#x27;</span>) %&gt;</span><br><span class="line"># <span class="title class_">This</span> is an <span class="title class_">Apple</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="markdown" class="article-heading"><a href="#markdown" class="headerlink" title="markdown"></a>markdown<a class="article-anchor" href="#markdown" aria-hidden="true"></a></h3><p>使用 Markdown 解析字符串。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- markdown(str) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">markdown</span>(str) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- markdown(<span class="string">'make me **strong**'</span>) %&gt;</span><br><span class="line"><span class="comment">// make me &lt;strong&gt;strong&lt;/strong&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">markdown</span>(<span class="string">&#x27;make me **strong**&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// make me &lt;strong&gt;strong&lt;/strong&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="render" class="article-heading"><a href="#render" class="headerlink" title="render"></a>render<a class="article-anchor" href="#render" aria-hidden="true"></a></h3><p>解析字符串。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- render(str, engine, [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">render</span>(str, engine, [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <h3 id="word-wrap" class="article-heading"><a href="#word-wrap" class="headerlink" title="word_wrap"></a>word_wrap<a class="article-anchor" href="#word-wrap" aria-hidden="true"></a></h3><p>使每行的字符串长度不超过 <code>length</code>。<code>length</code> 预设为 80。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- word_wrap(str, [length]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">word_wrap</span>(str, [length]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- word_wrap(<span class="string">'Once upon a time'</span>, <span class="number">8</span>) %&gt;</span><br><span class="line"><span class="comment">// Once upon\n a time</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">word_wrap</span>(<span class="string">&#x27;Once upon a time&#x27;</span>, <span class="number">8</span>) %&gt;</span><br><span class="line"><span class="comment">// Once upon\n a time</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="truncate" class="article-heading"><a href="#truncate" class="headerlink" title="truncate"></a>truncate<a class="article-anchor" href="#truncate" aria-hidden="true"></a></h3><p>移除超过 <code>length</code> 长度的字符串。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- truncate(text, length) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">truncate</span>(text, length) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- truncate(<span class="string">'Once upon a time in a world far far away'</span>, &#123;<span class="attr">length</span>: <span class="number">17</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// Once upon a ti...</span></span><br><span class="line"></span><br><span class="line">&lt;%- truncate(<span class="string">'Once upon a time in a world far far away'</span>, &#123;<span class="attr">length</span>: <span class="number">17</span>, <span class="attr">separator</span>: <span class="string">' '</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// Once upon a...</span></span><br><span class="line"></span><br><span class="line">&lt;%- truncate(<span class="string">'And they found that many people were sleeping better.'</span>, &#123;<span class="attr">length</span>: <span class="number">25</span>, <span class="attr">omission</span>: <span class="string">'... (continued)'</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// And they f... (continued)</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">truncate</span>(<span class="string">&#x27;Once upon a time in a world far far away&#x27;</span>, &#123;<span class="attr">length</span>: <span class="number">17</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// Once upon a ti...</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">truncate</span>(<span class="string">&#x27;Once upon a time in a world far far away&#x27;</span>, &#123;<span class="attr">length</span>: <span class="number">17</span>, <span class="attr">separator</span>: <span class="string">&#x27; &#x27;</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// Once upon a...</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">truncate</span>(<span class="string">&#x27;And they found that many people were sleeping better.&#x27;</span>, &#123;<span class="attr">length</span>: <span class="number">25</span>, <span class="attr">omission</span>: <span class="string">&#x27;... (continued)&#x27;</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// And they f... (continued)</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="模板" class="article-heading"><a href="#模板" class="headerlink" title="模板"></a>模板<a class="article-anchor" href="#模板" aria-hidden="true"></a></h2><h3 id="partial" class="article-heading"><a href="#partial" class="headerlink" title="partial"></a>partial<a class="article-anchor" href="#partial" aria-hidden="true"></a></h3><p>载入其他模板文件，您可在 <code>locals</code> 设定区域变量。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- partial(layout, [locals], [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">partial</span>(layout, [locals], [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -290,38 +343,38 @@
 </tr>
 </tbody></table>
 <h3 id="fragment-cache" class="article-heading"><a href="#fragment-cache" class="headerlink" title="fragment_cache"></a>fragment_cache<a class="article-anchor" href="#fragment-cache" aria-hidden="true"></a></h3><p>局部缓存。它储存局部内容，下次使用时就能直接使用缓存。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- fragment_cache(id, fn);</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">fragment_cache</span>(id, fn);</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- fragment_cache(<span class="string">'header'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">'&lt;header&gt;&lt;/header&gt;'</span>;</span><br><span class="line">&#125;) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">fragment_cache</span>(<span class="string">&#x27;header&#x27;</span>, <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">&#x27;&lt;header&gt;&lt;/header&gt;&#x27;</span>;</span><br><span class="line">&#125;) %&gt;</span><br></pre></td></tr></table></figure>
 
-<h2 id="日期与时间" class="article-heading"><a href="#日期与时间" class="headerlink" title="日期与时间"></a>日期与时间<a class="article-anchor" href="#日期与时间" aria-hidden="true"></a></h2><h3 id="date" class="article-heading"><a href="#date" class="headerlink" title="date"></a>date<a class="article-anchor" href="#date" aria-hidden="true"></a></h3><p>插入格式化的日期。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" href="http://momentjs.com/" rel="external nofollow noreferrer noopener">Moment.js</a> 对象。<code>format</code> 默认为 <code>date_format</code> 配置信息。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- date(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- date(<span class="built_in">Date</span>.now()) %&gt;</span><br><span class="line"><span class="comment">// 2013-01-01</span></span><br><span class="line"></span><br><span class="line">&lt;%- date(<span class="built_in">Date</span>.now(), <span class="string">'YYYY/M/D'</span>) %&gt;</span><br><span class="line"><span class="comment">// Jan 1 2013</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="date-xml" class="article-heading"><a href="#date-xml" class="headerlink" title="date_xml"></a>date_xml<a class="article-anchor" href="#date-xml" aria-hidden="true"></a></h3><p>插入 XML 格式的日期。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" href="http://momentjs.com/" rel="external nofollow noreferrer noopener">Moment.js</a> 对象。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- date_xml(date) %&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="日期与时间" class="article-heading"><a href="#日期与时间" class="headerlink" title="日期与时间"></a>日期与时间<a class="article-anchor" href="#日期与时间" aria-hidden="true"></a></h2><h3 id="date" class="article-heading"><a href="#date" class="headerlink" title="date"></a>date<a class="article-anchor" href="#date" aria-hidden="true"></a></h3><p>插入格式化的日期。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 对象。<code>format</code> 默认为 <code>date_format</code> 配置信息。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">date</span>(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- date_xml(<span class="built_in">Date</span>.now()) %&gt;</span><br><span class="line"><span class="comment">// 2013-01-01T00:00:00.000Z</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="title function_">now</span>()) %&gt;</span><br><span class="line"><span class="comment">// 2013-01-01</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">date</span>(<span class="title class_">Date</span>.<span class="title function_">now</span>(), <span class="string">&#x27;YYYY/M/D&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// Jan 1 2013</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="time" class="article-heading"><a href="#time" class="headerlink" title="time"></a>time<a class="article-anchor" href="#time" aria-hidden="true"></a></h3><p>插入格式化的时间。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" href="http://momentjs.com/" rel="external nofollow noreferrer noopener">Moment.js</a> 对象。<code>format</code> 默认为 <code>time_format</code> 配置信息。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- time(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- time(<span class="built_in">Date</span>.now()) %&gt;</span><br><span class="line"><span class="comment">// 13:05:12</span></span><br><span class="line"></span><br><span class="line">&lt;%- time(<span class="built_in">Date</span>.now(), <span class="string">'h:mm:ss a'</span>) %&gt;</span><br><span class="line"><span class="comment">// 1:05:12 pm</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="full-date" class="article-heading"><a href="#full-date" class="headerlink" title="full_date"></a>full_date<a class="article-anchor" href="#full-date" aria-hidden="true"></a></h3><p>插入格式化的日期和时间。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" href="http://momentjs.com/" rel="external nofollow noreferrer noopener">Moment.js</a> 对象。<code>format</code> 默认为 <code>date_format + time_format</code>。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- full_date(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="date-xml" class="article-heading"><a href="#date-xml" class="headerlink" title="date_xml"></a>date_xml<a class="article-anchor" href="#date-xml" aria-hidden="true"></a></h3><p>插入 XML 格式的日期。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 对象。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">date_xml</span>(date) %&gt;</span><br></pre></td></tr></table></figure>
 
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- full_date(<span class="keyword">new</span> <span class="built_in">Date</span>()) %&gt;</span><br><span class="line"><span class="comment">// Jan 1, 2013 0:00:00</span></span><br><span class="line"></span><br><span class="line">&lt;%- full_date(<span class="keyword">new</span> <span class="built_in">Date</span>(), <span class="string">'dddd, MMMM Do YYYY, h:mm:ss a'</span>) %&gt;</span><br><span class="line"><span class="comment">// Tuesday, January 1st 2013, 12:00:00 am</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">date_xml</span>(<span class="title class_">Date</span>.<span class="title function_">now</span>()) %&gt;</span><br><span class="line"><span class="comment">// 2013-01-01T00:00:00.000Z</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="moment" class="article-heading"><a href="#moment" class="headerlink" title="moment"></a>moment<a class="article-anchor" href="#moment" aria-hidden="true"></a></h3><p><a target="_blank" href="http://momentjs.com/" rel="external nofollow noreferrer noopener">Moment.js</a> 函数库。</p>
+<h3 id="time" class="article-heading"><a href="#time" class="headerlink" title="time"></a>time<a class="article-anchor" href="#time" aria-hidden="true"></a></h3><p>插入格式化的时间。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 对象。<code>format</code> 默认为 <code>time_format</code> 配置信息。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">time</span>(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例：</strong></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">time</span>(<span class="title class_">Date</span>.<span class="title function_">now</span>()) %&gt;</span><br><span class="line"><span class="comment">// 13:05:12</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">time</span>(<span class="title class_">Date</span>.<span class="title function_">now</span>(), <span class="string">&#x27;h:mm:ss a&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// 1:05:12 pm</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="full-date" class="article-heading"><a href="#full-date" class="headerlink" title="full_date"></a>full_date<a class="article-anchor" href="#full-date" aria-hidden="true"></a></h3><p>插入格式化的日期和时间。<code>date</code> 可以是 UNIX 时间、ISO 字符串、Date 对象或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 对象。<code>format</code> 默认为 <code>date_format + time_format</code>。</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">full_date</span>(date, [format]) %&gt;</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例：</strong></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">full_date</span>(<span class="keyword">new</span> <span class="title class_">Date</span>()) %&gt;</span><br><span class="line"><span class="comment">// Jan 1, 2013 0:00:00</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">full_date</span>(<span class="keyword">new</span> <span class="title class_">Date</span>(), <span class="string">&#x27;dddd, MMMM Do YYYY, h:mm:ss a&#x27;</span>) %&gt;</span><br><span class="line"><span class="comment">// Tuesday, January 1st 2013, 12:00:00 am</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="moment" class="article-heading"><a href="#moment" class="headerlink" title="moment"></a>moment<a class="article-anchor" href="#moment" aria-hidden="true"></a></h3><p><a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 函数库。</p>
 <h2 id="列表" class="article-heading"><a href="#列表" class="headerlink" title="列表"></a>列表<a class="article-anchor" href="#列表" aria-hidden="true"></a></h2><h3 id="list-categories" class="article-heading"><a href="#list-categories" class="headerlink" title="list_categories"></a>list_categories<a class="article-anchor" href="#list-categories" aria-hidden="true"></a></h3><p>插入分类列表。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- list_categories([options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">list_categories</span>([options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -373,7 +426,7 @@
 </tr>
 </tbody></table>
 <h3 id="list-tags" class="article-heading"><a href="#list-tags" class="headerlink" title="list_tags"></a>list_tags<a class="article-anchor" href="#list-tags" aria-hidden="true"></a></h3><p>插入标签列表。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- list_tags([options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">list_tags</span>([options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -425,7 +478,7 @@
 </tr>
 </tbody></table>
 <h3 id="list-archives" class="article-heading"><a href="#list-archives" class="headerlink" title="list_archives"></a>list_archives<a class="article-anchor" href="#list-archives" aria-hidden="true"></a></h3><p>插入归档列表。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- list_archives([options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">list_archives</span>([options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -477,7 +530,7 @@
 </tr>
 </tbody></table>
 <h3 id="list-posts" class="article-heading"><a href="#list-posts" class="headerlink" title="list_posts"></a>list_posts<a class="article-anchor" href="#list-posts" aria-hidden="true"></a></h3><p>插入文章列表。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- list_posts([options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">list_posts</span>([options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -524,7 +577,7 @@
 </tr>
 </tbody></table>
 <h3 id="tagcloud" class="article-heading"><a href="#tagcloud" class="headerlink" title="tagcloud"></a>tagcloud<a class="article-anchor" href="#tagcloud" aria-hidden="true"></a></h3><p>插入标签云。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- tagcloud([tags], [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">tagcloud</span>([tags], [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -571,17 +624,17 @@
 </tr>
 <tr>
 <td><code>start_color</code></td>
-<td>开始的颜色。您可使用十六进位值（<code>#b700ff</code>），rgba（<code>rgba(183, 0, 255, 1)</code>），hsla（<code>hsla(283, 100%, 50%, 1)</code>）或 <a target="_blank" href="http://www.w3.org/TR/css3-color/#svg-color" rel="external nofollow noreferrer noopener">颜色关键字</a>。此变量仅在 <code>color</code> 参数开启时才有用。</td>
+<td>开始的颜色。您可使用十六进位值（<code>#b700ff</code>），rgba（<code>rgba(183, 0, 255, 1)</code>），hsla（<code>hsla(283, 100%, 50%, 1)</code>）或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://www.w3.org/TR/css3-color/#svg-color">颜色关键字</a>。此变量仅在 <code>color</code> 参数开启时才有用。</td>
 <td></td>
 </tr>
 <tr>
 <td><code>end_color</code></td>
-<td>结束的颜色。您可使用十六进位值（<code>#b700ff</code>），rgba（<code>rgba(183, 0, 255, 1)</code>），hsla（<code>hsla(283, 100%, 50%, 1)</code>）或 <a target="_blank" href="http://www.w3.org/TR/css3-color/#svg-color" rel="external nofollow noreferrer noopener">颜色关键字</a>。此变量仅在 <code>color</code> 参数开启时才有用。</td>
+<td>结束的颜色。您可使用十六进位值（<code>#b700ff</code>），rgba（<code>rgba(183, 0, 255, 1)</code>），hsla（<code>hsla(283, 100%, 50%, 1)</code>）或 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://www.w3.org/TR/css3-color/#svg-color">颜色关键字</a>。此变量仅在 <code>color</code> 参数开启时才有用。</td>
 <td></td>
 </tr>
 </tbody></table>
 <h2 id="其他" class="article-heading"><a href="#其他" class="headerlink" title="其他"></a>其他<a class="article-anchor" href="#其他" aria-hidden="true"></a></h2><h3 id="paginator" class="article-heading"><a href="#paginator" class="headerlink" title="paginator"></a>paginator<a class="article-anchor" href="#paginator" aria-hidden="true"></a></h3><p>插入分页链接。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- paginator(options) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">paginator</span>(options) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -648,7 +701,7 @@
 </tr>
 </tbody></table>
 <h3 id="search-form" class="article-heading"><a href="#search-form" class="headerlink" title="search_form"></a>search_form<a class="article-anchor" href="#search-form" aria-hidden="true"></a></h3><p>插入 Google 搜索框。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- search_form(options) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">search_form</span>(options) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -675,7 +728,7 @@
 </tr>
 </tbody></table>
 <h3 id="number-format" class="article-heading"><a href="#number-format" class="headerlink" title="number_format"></a>number_format<a class="article-anchor" href="#number-format" aria-hidden="true"></a></h3><p>格式化数字。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- number_format(number, [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">number_format</span>(number, [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -702,10 +755,10 @@
 </tr>
 </tbody></table>
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- number_format(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">1</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345.68</span></span><br><span class="line"></span><br><span class="line">&lt;%- number_format(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">4</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345.6700</span></span><br><span class="line"></span><br><span class="line">&lt;%- number_format(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">0</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345</span></span><br><span class="line"></span><br><span class="line">&lt;%- number_format(<span class="number">12345.67</span>, &#123;<span class="attr">delimiter</span>: <span class="string">''</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12345.67</span></span><br><span class="line"></span><br><span class="line">&lt;%- number_format(<span class="number">12345.67</span>, &#123;<span class="attr">separator</span>: <span class="string">'/'</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345/67</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">number_format</span>(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">1</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345.68</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">number_format</span>(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">4</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345.6700</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">number_format</span>(<span class="number">12345.67</span>, &#123;<span class="attr">precision</span>: <span class="number">0</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">number_format</span>(<span class="number">12345.67</span>, &#123;<span class="attr">delimiter</span>: <span class="string">&#x27;&#x27;</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12345.67</span></span><br><span class="line"></span><br><span class="line">&lt;%- <span class="title function_">number_format</span>(<span class="number">12345.67</span>, &#123;<span class="attr">separator</span>: <span class="string">&#x27;/&#x27;</span>&#125;) %&gt;</span><br><span class="line"><span class="comment">// 12,345/67</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="open-graph" class="article-heading"><a href="#open-graph" class="headerlink" title="open_graph"></a>open_graph<a class="article-anchor" href="#open-graph" aria-hidden="true"></a></h3><p>插入 open graph 资源。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- open_graph([options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">open_graph</span>([options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -747,7 +800,7 @@
 </tr>
 </tbody></table>
 <h3 id="toc" class="article-heading"><a href="#toc" class="headerlink" title="toc"></a>toc<a class="article-anchor" href="#toc" aria-hidden="true"></a></h3><p>解析内容中的标题标签 (h1~h6) 并插入目录。</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- toc(str, [options]) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">toc</span>(str, [options]) %&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
 <thead>
@@ -769,31 +822,81 @@
 </tr>
 </tbody></table>
 <p><strong>示例：</strong></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- toc(page.content) %&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;%- <span class="title function_">toc</span>(page.<span class="property">content</span>) %&gt;</span><br></pre></td></tr></table></figure>
 
 
               </div>
-              <div id="footer-copyright">
-      &copy; 2024 听阅 保留一切权利。<br>
-    </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2025-01-04T08:04:57.730Z" itemprop="dateModified">上次更新：2025-01-04</time>
+                <a href="index.html" class="article-footer-next" title="使用说明"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
             </div>
           </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E8%BE%85%E5%8A%A9%E5%87%BD%E6%95%B0%EF%BC%88Helpers%EF%BC%89"><span class="toc-text">title: 辅助函数（Helpers）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E5%9D%80"><span class="toc-text">网址</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#url-for"><span class="toc-text">url_for</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#relative-url"><span class="toc-text">relative_url</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#gravatar"><span class="toc-text">gravatar</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTML-%E6%A0%87%E7%AD%BE"><span class="toc-text">HTML 标签</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#css"><span class="toc-text">css</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#js"><span class="toc-text">js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#link-to"><span class="toc-text">link_to</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mail-to"><span class="toc-text">mail_to</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#image-tag"><span class="toc-text">image_tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#favicon-tag"><span class="toc-text">favicon_tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#feed-tag"><span class="toc-text">feed_tag</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E5%87%BD%E6%95%B0"><span class="toc-text">条件函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#is-current"><span class="toc-text">is_current</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-home"><span class="toc-text">is_home</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-post"><span class="toc-text">is_post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-archive"><span class="toc-text">is_archive</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-year"><span class="toc-text">is_year</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-month"><span class="toc-text">is_month</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-category"><span class="toc-text">is_category</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#is-tag"><span class="toc-text">is_tag</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86"><span class="toc-text">字符串处理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#trim"><span class="toc-text">trim</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#strip-html"><span class="toc-text">strip_html</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#titlecase"><span class="toc-text">titlecase</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#markdown"><span class="toc-text">markdown</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#render"><span class="toc-text">render</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#word-wrap"><span class="toc-text">word_wrap</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#truncate"><span class="toc-text">truncate</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E6%9D%BF"><span class="toc-text">模板</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#partial"><span class="toc-text">partial</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#fragment-cache"><span class="toc-text">fragment_cache</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%9F%E4%B8%8E%E6%97%B6%E9%97%B4"><span class="toc-text">日期与时间</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#date"><span class="toc-text">date</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#date-xml"><span class="toc-text">date_xml</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#time"><span class="toc-text">time</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#full-date"><span class="toc-text">full_date</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#moment"><span class="toc-text">moment</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-text">列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#list-categories"><span class="toc-text">list_categories</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#list-tags"><span class="toc-text">list_tags</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#list-archives"><span class="toc-text">list_archives</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#list-posts"><span class="toc-text">list_posts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#tagcloud"><span class="toc-text">tagcloud</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-text">其他</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#paginator"><span class="toc-text">paginator</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#search-form"><span class="toc-text">search_form</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#number-format"><span class="toc-text">number_format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#open-graph"><span class="toc-text">open_graph</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#toc"><span class="toc-text">toc</span></a></li></ol></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
         </div>
       </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="fast-reading.html" class="sidebar-link">速读模式</a>
+  </div>
+</aside>
     </div>
   </div>
 </div>
 
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      Copyright &copy; 2025 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">听阅</a> 保留所有权利。<br>
+    </div>
+    <div id="footer-links">
+      
+        <a href="/help/privacy.html" class="footer-link" >隐私声明</a>
+      
+        <a href="/help/copyright.html" class="footer-link" >内容合作</a>
+      
+    </div>
   </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/" class="mobile-nav-link">主页</a><a href="/help/" class="mobile-nav-link">文档</a>
+      <li class="mobile-nav-item">
+        <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
+      </li>
+    </ul>
+    
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="help/helpers.html">
+      
+        <option value="zh-tw">繁體中文</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+    </select>
+  </div>
+</nav>
   <!-- Scripts -->
 <!-- Cookie -->
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 <!-- build:js build/js/main.js -->
 
 <script src="/js/lang_select.js"></script>
-
-
-<script src="/js/toc.js"></script>
 
 
 <script src="/js/mobile_nav.js"></script>
