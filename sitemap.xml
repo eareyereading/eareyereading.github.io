@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/tap-to-listen</loc>
-    
-    <lastmod>2025-02-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/zh-tw/help/tencent</loc>
     
     <lastmod>2025-02-12</lastmod>
@@ -56,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/terms-of-use</loc>
+    <loc>https://eareyereading.com/zh-tw/help/tap-to-listen</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/user_make_lrc</loc>
+    <loc>https://eareyereading.com/zh-tw/help/terms-of-use</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -84,6 +75,15 @@
   
   <url>
     <loc>https://eareyereading.com/zh-tw/help/word-lookup</loc>
+    
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/user_make_lrc</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -164,15 +164,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/lrc-split</loc>
-    
-    <lastmod>2025-02-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/zh-tw/help/lrc-set-timestamp</loc>
     
     <lastmod>2025-02-12</lastmod>
@@ -182,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/make-lrc-book</loc>
+    <loc>https://eareyereading.com/zh-tw/help/lrc-split</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -192,6 +183,15 @@
   
   <url>
     <loc>https://eareyereading.com/zh-tw/help/membership-book</loc>
+    
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/make-lrc-book</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/faq</loc>
+    <loc>https://eareyereading.com/zh-tw/help/cross-app-trans</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -281,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/cross-app-trans</loc>
+    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
+    <loc>https://eareyereading.com/zh-tw/help/faq</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/word-lookup</loc>
+    <loc>https://eareyereading.com/help/word-analysis</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -452,7 +452,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/word-analysis</loc>
+    <loc>https://eareyereading.com/help/word-lookup</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -569,7 +569,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/membership</loc>
+    <loc>https://eareyereading.com/help/membership-news</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -578,7 +578,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/membership-news</loc>
+    <loc>https://eareyereading.com/help/membership</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/plugins</loc>
+    <loc>https://eareyereading.com/help/privacy-news</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -614,7 +614,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/privacy-news</loc>
+    <loc>https://eareyereading.com/help/plugins</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -641,7 +641,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/readability</loc>
+    <loc>https://eareyereading.com/help/server</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -650,7 +650,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/server</loc>
+    <loc>https://eareyereading.com/help/readability</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -731,15 +731,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/make-lrc-book</loc>
-    
-    <lastmod>2025-02-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/help/lrc-split</loc>
     
     <lastmod>2025-02-12</lastmod>
@@ -749,7 +740,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/deployment</loc>
+    <loc>https://eareyereading.com/help/make-lrc-book</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -758,7 +749,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/dialyze-book</loc>
+    <loc>https://eareyereading.com/help/deployment</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -777,6 +768,15 @@
   
   <url>
     <loc>https://eareyereading.com/help/dict-imports</loc>
+    
+    <lastmod>2025-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/dialyze-book</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -875,7 +875,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/book-imports-others</loc>
+    <loc>https://eareyereading.com/help/bionic-reading</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -884,7 +884,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/bionic-reading</loc>
+    <loc>https://eareyereading.com/help/book-imports-others</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -1028,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/</loc>
+    <loc>https://eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</loc>
     
     <lastmod>2025-02-12</lastmod>
     
@@ -1037,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/news/2020/04/30/hexo-util-2_hexo-fs-3/</loc>
+    <loc>https://eareyereading.com/news/2020/03/08/hexo-renderer-markdown-it-4-1-0-hexo-util-1-9-0-released/</loc>
     
     <lastmod>2025-02-12</lastmod>
     
