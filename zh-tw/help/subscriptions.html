@@ -200,15 +200,20 @@
 </nav>
   <script>
   var copyButtonContent = '複製';
+  var copiedButtonContent = '已複製';
+
   var highlights = document.querySelectorAll('.highlight');
   highlights.forEach(function(element) {
+    var buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('copy-btn-container')
+
     var button = document.createElement('button');
+    buttonContainer.append(button)
   
     button.textContent = copyButtonContent;
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-
-      var lines = e.target.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -224,9 +229,11 @@
 
       document.execCommand('copy');
       document.body.removeChild(ta);
+
+      e.target.textContent = copiedButtonContent;
     });
   
-    element.prepend(button);
+    element.prepend(buttonContainer);
   });
 </script>
   <!-- Scripts -->
