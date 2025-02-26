@@ -46,12 +46,12 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
   <!-- Open Graph -->
-  <meta name="description" content="title: 指令init$ hexo init [folder]  新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。 new$ hexo new [layout] &lt;title&gt;  新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。">
+  <meta name="description" content="title: 指令 init $ hexo init [folder] 新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。 new $ hexo new [layout] &lt;title&gt; 新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="听阅">
 <meta property="og:url" content="https://eareyereading.com/help/commands">
 <meta property="og:site_name" content="听阅">
-<meta property="og:description" content="title: 指令init$ hexo init [folder]  新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。 new$ hexo new [layout] &lt;title&gt;  新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。">
+<meta property="og:description" content="title: 指令 init $ hexo init [folder] 新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。 new $ hexo new [layout] &lt;title&gt; 新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
 <meta property="article:published_time" content="2025-02-16T02:50:57.500Z">
@@ -111,14 +111,15 @@
                 -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="title-指令" class="article-heading"><a href="#title-指令" class="headerlink" title="title: 指令"></a>title: 指令<a class="article-anchor" href="#title-指令" aria-hidden="true"></a></h2><h2 id="init" class="article-heading"><a href="#init" class="headerlink" title="init"></a>init<a class="article-anchor" href="#init" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure>
-
+                <h2 id="title-指令" class="article-heading">title: 指令<a class="article-anchor" href="#title-指令" aria-hidden="true"></a></h2>
+<h2 id="init" class="article-heading">init<a class="article-anchor" href="#init" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init [folder]</span><br></pre></td></tr></table></figure>
 <p>新建一个网站。如果没有设置 <code>folder</code> ，Hexo 默认在目前的文件夹建立网站。</p>
-<h2 id="new" class="article-heading"><a href="#new" class="headerlink" title="new"></a>new<a class="article-anchor" href="#new" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
+<h2 id="new" class="article-heading">new<a class="article-anchor" href="#new" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
 <p>新建一篇文章。如果没有设置 <code>layout</code> 的话，默认使用 <a href="configuration.html">_config.yml</a> 中的 <code>default_layout</code> 参数代替。如果标题包含空格的话，请使用引号括起来。</p>
-<h2 id="generate" class="article-heading"><a href="#generate" class="headerlink" title="generate"></a>generate<a class="article-anchor" href="#generate" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
+<h2 id="generate" class="article-heading">generate<a class="article-anchor" href="#generate" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>生成静态文件。</p>
 <table>
 <thead>
@@ -127,7 +128,8 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>-d</code>, <code>--deploy</code></td>
 <td>文件生成后立即部署网站</td>
 </tr>
@@ -135,15 +137,15 @@
 <td><code>-w</code>, <code>--watch</code></td>
 <td>监视文件变动</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>该命令可以简写为</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-
-<h2 id="publish" class="article-heading"><a href="#publish" class="headerlink" title="publish"></a>publish<a class="article-anchor" href="#publish" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
-
+<h2 id="publish" class="article-heading">publish<a class="article-anchor" href="#publish" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
 <p>发表草稿。</p>
-<h2 id="server" class="article-heading"><a href="#server" class="headerlink" title="server"></a>server<a class="article-anchor" href="#server" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
+<h2 id="server" class="article-heading">server<a class="article-anchor" href="#server" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>启动服务器。默认情况下，访问网址为： <code>http://localhost:4000/</code>。</p>
 <table>
 <thead>
@@ -152,7 +154,8 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>-p</code>, <code>--port</code></td>
 <td>重设端口</td>
 </tr>
@@ -164,9 +167,10 @@
 <td><code>-l</code>, <code>--log</code></td>
 <td>启动日记记录，使用覆盖记录格式</td>
 </tr>
-</tbody></table>
-<h2 id="deploy" class="article-heading"><a href="#deploy" class="headerlink" title="deploy"></a>deploy<a class="article-anchor" href="#deploy" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
+</tbody>
+</table>
+<h2 id="deploy" class="article-heading">deploy<a class="article-anchor" href="#deploy" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>部署网站。</p>
 <table>
 <thead>
@@ -175,16 +179,17 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>-g</code>, <code>--generate</code></td>
 <td>部署之前预先生成静态文件</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>该命令可以简写为：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-
-<h2 id="render" class="article-heading"><a href="#render" class="headerlink" title="render"></a>render<a class="article-anchor" href="#render" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo render &lt;file1&gt; [file2] ...</span><br></pre></td></tr></table></figure>
-
+<h2 id="render" class="article-heading">render<a class="article-anchor" href="#render" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo render &lt;file1&gt; [file2] ...</span><br></pre></td></tr></table></figure>
 <p>渲染文件。</p>
 <table>
 <thead>
@@ -193,41 +198,44 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>-o</code>, <code>--output</code></td>
 <td>设置输出路径</td>
 </tr>
-</tbody></table>
-<h2 id="migrate" class="article-heading"><a href="#migrate" class="headerlink" title="migrate"></a>migrate<a class="article-anchor" href="#migrate" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo migrate &lt;<span class="built_in">type</span>&gt;</span><br></pre></td></tr></table></figure>
-
+</tbody>
+</table>
+<h2 id="migrate" class="article-heading">migrate<a class="article-anchor" href="#migrate" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo migrate &lt;<span class="built_in">type</span>&gt;</span><br></pre></td></tr></table></figure>
 <p>从其他博客系统 <a href="migration.html">迁移内容</a>。</p>
-<h2 id="clean" class="article-heading"><a href="#clean" class="headerlink" title="clean"></a>clean<a class="article-anchor" href="#clean" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
-
+<h2 id="clean" class="article-heading">clean<a class="article-anchor" href="#clean" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
 <p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p>
 <p>在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
-<h2 id="list" class="article-heading"><a href="#list" class="headerlink" title="list"></a>list<a class="article-anchor" href="#list" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo list &lt;<span class="built_in">type</span>&gt;</span><br></pre></td></tr></table></figure>
-
+<h2 id="list" class="article-heading">list<a class="article-anchor" href="#list" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo list &lt;<span class="built_in">type</span>&gt;</span><br></pre></td></tr></table></figure>
 <p>列出网站资料。</p>
-<h2 id="version" class="article-heading"><a href="#version" class="headerlink" title="version"></a>version<a class="article-anchor" href="#version" aria-hidden="true"></a></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo version</span><br></pre></td></tr></table></figure>
-
+<h2 id="version" class="article-heading">version<a class="article-anchor" href="#version" aria-hidden="true"></a></h2>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo version</span><br></pre></td></tr></table></figure>
 <p>显示 Hexo 版本。</p>
-<h2 id="选项" class="article-heading"><a href="#选项" class="headerlink" title="选项"></a>选项<a class="article-anchor" href="#选项" aria-hidden="true"></a></h2><h3 id="安全模式" class="article-heading"><a href="#安全模式" class="headerlink" title="安全模式"></a>安全模式<a class="article-anchor" href="#安全模式" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --safe</span><br></pre></td></tr></table></figure>
-
+<h2 id="选项" class="article-heading">选项<a class="article-anchor" href="#选项" aria-hidden="true"></a></h2>
+<h3 id="安全模式" class="article-heading">安全模式<a class="article-anchor" href="#安全模式" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --safe</span><br></pre></td></tr></table></figure>
 <p>在安全模式下，不会载入插件和脚本。当您在安装新插件遭遇问题时，可以尝试以安全模式重新执行。</p>
-<h3 id="调试模式" class="article-heading"><a href="#调试模式" class="headerlink" title="调试模式"></a>调试模式<a class="article-anchor" href="#调试模式" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --debug</span><br></pre></td></tr></table></figure>
-
+<h3 id="调试模式" class="article-heading">调试模式<a class="article-anchor" href="#调试模式" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --debug</span><br></pre></td></tr></table></figure>
 <p>在终端中显示调试信息并记录到 <code>debug.log</code>。当您碰到问题时，可以尝试用调试模式重新执行一次，并 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo/issues/new">提交调试信息到 GitHub</a>。</p>
-<h3 id="简洁模式" class="article-heading"><a href="#简洁模式" class="headerlink" title="简洁模式"></a>简洁模式<a class="article-anchor" href="#简洁模式" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --silent</span><br></pre></td></tr></table></figure>
-
+<h3 id="简洁模式" class="article-heading">简洁模式<a class="article-anchor" href="#简洁模式" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --silent</span><br></pre></td></tr></table></figure>
 <p>隐藏终端信息。</p>
-<h3 id="自定义配置文件的路径" class="article-heading"><a href="#自定义配置文件的路径" class="headerlink" title="自定义配置文件的路径"></a>自定义配置文件的路径<a class="article-anchor" href="#自定义配置文件的路径" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --config custom.yml</span><br></pre></td></tr></table></figure>
-
+<h3 id="自定义配置文件的路径" class="article-heading">自定义配置文件的路径<a class="article-anchor" href="#自定义配置文件的路径" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --config custom.yml</span><br></pre></td></tr></table></figure>
 <p>自定义配置文件的路径，执行后将不再使用 <code>_config.yml</code>。</p>
-<h3 id="显示草稿" class="article-heading"><a href="#显示草稿" class="headerlink" title="显示草稿"></a>显示草稿<a class="article-anchor" href="#显示草稿" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --draft</span><br></pre></td></tr></table></figure>
-
+<h3 id="显示草稿" class="article-heading">显示草稿<a class="article-anchor" href="#显示草稿" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --draft</span><br></pre></td></tr></table></figure>
 <p>显示 <code>source/_drafts</code> 文件夹中的草稿文章。</p>
-<h3 id="自定义-CWD" class="article-heading"><a href="#自定义-CWD" class="headerlink" title="自定义 CWD"></a>自定义 CWD<a class="article-anchor" href="#自定义-CWD" aria-hidden="true"></a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --cwd /path/to/cwd</span><br></pre></td></tr></table></figure>
-
+<h3 id="自定义-CWD" class="article-heading">自定义 CWD<a class="article-anchor" href="#自定义-CWD" aria-hidden="true"></a></h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo --cwd /path/to/cwd</span><br></pre></td></tr></table></figure>
 <p>自定义当前工作目录（Current working directory）的路径。</p>
 
               </div>
@@ -249,7 +257,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="gestures.html" class="sidebar-link">手势说明</a><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
   </div>
 </aside>
     </div>
@@ -282,7 +290,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="gestures.html" class="mobile-nav-link">手势说明</a><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
@@ -308,10 +316,10 @@
     var button = document.createElement('button');
     buttonContainer.append(button)
   
-    button.textContent = copyButtonContent;
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -328,7 +336,10 @@
       document.execCommand('copy');
       document.body.removeChild(ta);
 
-      e.target.textContent = copiedButtonContent;
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
     });
   
     element.prepend(buttonContainer);

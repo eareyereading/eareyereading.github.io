@@ -119,7 +119,6 @@
     <div class="inner">
       <h2 class="intro-feature-intro">特色功能</h2>  
 <p class="intro-feature-description">我們提供以下特色閱讀功能。</p>
-
 <div id="intro-feature-list">  
   <div class="intro-feature-wrap">  
     <div class="intro-feature">  
@@ -167,7 +166,6 @@
   </div>
 </div>
 </div>
-
 <div id="customer-reviews-wrapper">  
   <div id="customer-reviews_title">用戶 ❤️ 評價</div>  
   <div id="customer-review-list">  
@@ -260,10 +258,10 @@
     var button = document.createElement('button');
     buttonContainer.append(button)
   
-    button.textContent = copyButtonContent;
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -280,7 +278,10 @@
       document.execCommand('copy');
       document.body.removeChild(ta);
 
-      e.target.textContent = copiedButtonContent;
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
     });
   
     element.prepend(buttonContainer);

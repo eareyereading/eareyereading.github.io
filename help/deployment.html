@@ -46,12 +46,12 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
   <!-- Open Graph -->
-  <meta name="description" content="title: 部署Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。 $ hexo deploy  在开始之前，您必须先在 _config.yml 中修改参数，一个正确的部署配置中至少要有 type 参数，例如： deploy:  type: git  您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。 deploy:  - typ">
+  <meta name="description" content="title: 部署 Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。 $ hexo deploy 在开始之前，您必须先在 _config.yml 中修改参数，一个正确的部署配置中至少要有 type 参数，例如： deploy:  type: git 您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。 deploy:  - type">
 <meta property="og:type" content="website">
 <meta property="og:title" content="听阅">
 <meta property="og:url" content="https://eareyereading.com/help/deployment">
 <meta property="og:site_name" content="听阅">
-<meta property="og:description" content="title: 部署Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。 $ hexo deploy  在开始之前，您必须先在 _config.yml 中修改参数，一个正确的部署配置中至少要有 type 参数，例如： deploy:  type: git  您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。 deploy:  - typ">
+<meta property="og:description" content="title: 部署 Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。 $ hexo deploy 在开始之前，您必须先在 _config.yml 中修改参数，一个正确的部署配置中至少要有 type 参数，例如： deploy:  type: git 您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。 deploy:  - type">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
 <meta property="article:published_time" content="2025-02-16T02:50:57.501Z">
@@ -111,24 +111,20 @@
                 -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="title-部署" class="article-heading"><a href="#title-部署" class="headerlink" title="title: 部署"></a>title: 部署<a class="article-anchor" href="#title-部署" aria-hidden="true"></a></h2><p>Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。</p>
+                <h2 id="title-部署" class="article-heading">title: 部署<a class="article-anchor" href="#title-部署" aria-hidden="true"></a></h2>
+<p>Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>在开始之前，您必须先在 <code>_config.yml</code> 中修改参数，一个正确的部署配置中至少要有 <code>type</code> 参数，例如：</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br></pre></td></tr></table></figure>
-
 <p>您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">heroku</span></span><br><span class="line">    <span class="attr">repo:</span></span><br></pre></td></tr></table></figure>
-
 <blockquote class="note warn"><strong class="note-title">缩进</strong><p>YAML依靠缩进来确定元素间的从属关系。因此，请确保每个deployer的缩进长度相同，并且使用空格缩进。</p>
 </blockquote>
-
-<h2 id="Git" class="article-heading"><a href="#Git" class="headerlink" title="Git"></a>Git<a class="article-anchor" href="#Git" aria-hidden="true"></a></h2><p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>。</p>
+<h2 id="Git" class="article-heading">Git<a class="article-anchor" href="#Git" aria-hidden="true"></a></h2>
+<p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-git">hexo-deployer-git</a>。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
 <p>修改配置。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]</span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
-
 <table>
 <thead>
 <tr>
@@ -136,7 +132,8 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>repo</code></td>
 <td>库（Repository）地址</td>
 </tr>
@@ -148,13 +145,13 @@
 <td><code>message</code></td>
 <td>自定义提交信息 (默认为 <code>Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}</code>)</td>
 </tr>
-</tbody></table>
-<h2 id="Heroku" class="article-heading"><a href="#Heroku" class="headerlink" title="Heroku"></a>Heroku<a class="article-anchor" href="#Heroku" aria-hidden="true"></a></h2><p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-heroku">hexo-deployer-heroku</a>。</p>
+</tbody>
+</table>
+<h2 id="Heroku" class="article-heading">Heroku<a class="article-anchor" href="#Heroku" aria-hidden="true"></a></h2>
+<p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-heroku">hexo-deployer-heroku</a>。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-heroku --save</span><br></pre></td></tr></table></figure>
-
 <p>修改配置。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">heroku</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
-
 <table>
 <thead>
 <tr>
@@ -162,7 +159,8 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>repo</code></td>
 <td>Heroku 库（Repository）地址</td>
 </tr>
@@ -170,13 +168,13 @@
 <td><code>message</code></td>
 <td>自定提交信息 (默认为 <code>Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}</code>)</td>
 </tr>
-</tbody></table>
-<h2 id="Rsync" class="article-heading"><a href="#Rsync" class="headerlink" title="Rsync"></a>Rsync<a class="article-anchor" href="#Rsync" aria-hidden="true"></a></h2><p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-rsync">hexo-deployer-rsync</a>。</p>
+</tbody>
+</table>
+<h2 id="Rsync" class="article-heading">Rsync<a class="article-anchor" href="#Rsync" aria-hidden="true"></a></h2>
+<p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-rsync">hexo-deployer-rsync</a>。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-rsync --save</span><br></pre></td></tr></table></figure>
-
 <p>修改配置。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">rsync</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">&lt;host&gt;</span></span><br><span class="line">  <span class="attr">user:</span> <span class="string">&lt;user&gt;</span></span><br><span class="line">  <span class="attr">root:</span> <span class="string">&lt;root&gt;</span></span><br><span class="line">  <span class="attr">port:</span> [<span class="string">port</span>]</span><br><span class="line">  <span class="attr">delete:</span> [<span class="literal">true</span><span class="string">|false</span>]</span><br><span class="line">  <span class="attr">verbose:</span> [<span class="literal">true</span><span class="string">|false</span>]</span><br><span class="line">  <span class="attr">ignore_errors:</span> [<span class="literal">true</span><span class="string">|false</span>]</span><br></pre></td></tr></table></figure>
-
 <table>
 <thead>
 <tr>
@@ -185,7 +183,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>host</code></td>
 <td>远程主机的地址</td>
 <td></td>
@@ -220,16 +219,15 @@
 <td>忽略错误</td>
 <td>false</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote class="note info"><strong class="note-title">rsync部署模块的工作方式</strong><p>需要注意的是，要求您提供的实际上是一个能通过SSH登陆远程主机的Linux用户。Hexo会自动处理关于rsync使用的一切操作。因此，您需要在远程主机上为您的Hexo站点建立一个用户，并允许其通过SSH登陆。不过，这里的<code>port</code>，的确是指rsync监听的端口，请确保防火墙打开了该端口。</p>
 </blockquote>
-
-<h2 id="OpenShift" class="article-heading"><a href="#OpenShift" class="headerlink" title="OpenShift"></a>OpenShift<a class="article-anchor" href="#OpenShift" aria-hidden="true"></a></h2><p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-openshift">hexo-deployer-openshift</a>。</p>
+<h2 id="OpenShift" class="article-heading">OpenShift<a class="article-anchor" href="#OpenShift" aria-hidden="true"></a></h2>
+<p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-openshift">hexo-deployer-openshift</a>。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-openshift --save</span><br></pre></td></tr></table></figure>
-
 <p>修改配置。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">openshift</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
-
 <table>
 <thead>
 <tr>
@@ -237,7 +235,8 @@
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>repo</code></td>
 <td>OpenShift 库（Repository）地址</td>
 </tr>
@@ -245,13 +244,13 @@
 <td><code>message</code></td>
 <td>自定提交信息 (默认为 <code>Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}</code>)</td>
 </tr>
-</tbody></table>
-<h2 id="FTPSync" class="article-heading"><a href="#FTPSync" class="headerlink" title="FTPSync"></a>FTPSync<a class="article-anchor" href="#FTPSync" aria-hidden="true"></a></h2><p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-ftpsync">hexo-deployer-ftpsync</a>。</p>
+</tbody>
+</table>
+<h2 id="FTPSync" class="article-heading">FTPSync<a class="article-anchor" href="#FTPSync" aria-hidden="true"></a></h2>
+<p>安装 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/hexo-deployer-ftpsync">hexo-deployer-ftpsync</a>。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-ftpsync --save</span><br></pre></td></tr></table></figure>
-
 <p>修改配置。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">ftpsync</span></span><br><span class="line">  <span class="attr">host:</span> <span class="string">&lt;host&gt;</span></span><br><span class="line">  <span class="attr">user:</span> <span class="string">&lt;user&gt;</span></span><br><span class="line">  <span class="attr">pass:</span> <span class="string">&lt;password&gt;</span></span><br><span class="line">  <span class="attr">remote:</span> [<span class="string">remote</span>]</span><br><span class="line">  <span class="attr">port:</span> [<span class="string">port</span>]</span><br><span class="line">  <span class="attr">ignore:</span> [<span class="string">ignore</span>]</span><br><span class="line">  <span class="attr">connections:</span> [<span class="string">connections</span>]</span><br><span class="line">  <span class="attr">verbose:</span> [<span class="literal">true</span><span class="string">|false</span>]</span><br></pre></td></tr></table></figure>
-
 <table>
 <thead>
 <tr>
@@ -260,7 +259,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>host</code></td>
 <td>远程主机的地址</td>
 <td></td>
@@ -300,11 +300,12 @@
 <td>显示调试信息</td>
 <td>false</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote class="note warn"><strong class="note-title">FTP部署可能出现的问题</strong><p>您可能需要预先通过其他方式将所有文件上传到远程主机中。否则初次使用ftpsync插件就可能出现报错。另外，由于FTP协议的特征，它每传送一个文件就需要一次握手，相对速度较慢。</p>
 </blockquote>
-
-<h2 id="其他方法" class="article-heading"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法<a class="article-anchor" href="#其他方法" aria-hidden="true"></a></h2><p>Hexo 生成的所有文件都放在 <code>public</code> 文件夹中，您可以将它们复制到您喜欢的地方。</p>
+<h2 id="其他方法" class="article-heading">其他方法<a class="article-anchor" href="#其他方法" aria-hidden="true"></a></h2>
+<p>Hexo 生成的所有文件都放在 <code>public</code> 文件夹中，您可以将它们复制到您喜欢的地方。</p>
 
               </div>
               <footer class="article-footer">
@@ -325,7 +326,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="gestures.html" class="sidebar-link">手势说明</a><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
   </div>
 </aside>
     </div>
@@ -358,7 +359,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="gestures.html" class="mobile-nav-link">手势说明</a><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
@@ -384,10 +385,10 @@
     var button = document.createElement('button');
     buttonContainer.append(button)
   
-    button.textContent = copyButtonContent;
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -404,7 +405,10 @@
       document.execCommand('copy');
       document.body.removeChild(ta);
 
-      e.target.textContent = copiedButtonContent;
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
     });
   
     element.prepend(buttonContainer);

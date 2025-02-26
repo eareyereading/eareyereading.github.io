@@ -46,12 +46,12 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
   <!-- Open Graph -->
-  <meta name="description" content="title: 配置您可以在 _config.yml 中修改大部份的配置。 网站   参数 描述    title 网站标题   subtitle 网站副标题   description 网站描述   author 您的名字   language 网站使用的语言   timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America&#x2F;New_York, Japan, 和 U">
+  <meta name="description" content="title: 配置 您可以在 _config.yml 中修改大部份的配置。 网站    参数 描述     title 网站标题   subtitle 网站副标题   description 网站描述   author 您的名字   language 网站使用的语言   timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America&#x2F;New_York, Japan,">
 <meta property="og:type" content="website">
 <meta property="og:title" content="听阅">
 <meta property="og:url" content="https://eareyereading.com/help/configuration">
 <meta property="og:site_name" content="听阅">
-<meta property="og:description" content="title: 配置您可以在 _config.yml 中修改大部份的配置。 网站   参数 描述    title 网站标题   subtitle 网站副标题   description 网站描述   author 您的名字   language 网站使用的语言   timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America&#x2F;New_York, Japan, 和 U">
+<meta property="og:description" content="title: 配置 您可以在 _config.yml 中修改大部份的配置。 网站    参数 描述     title 网站标题   subtitle 网站副标题   description 网站描述   author 您的名字   language 网站使用的语言   timezone 网站时区。Hexo 默认使用您电脑的时区。时区列表。比如说：America&#x2F;New_York, Japan,">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
 <meta property="article:published_time" content="2025-02-16T02:50:57.500Z">
@@ -111,15 +111,18 @@
                 -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="title-配置" class="article-heading"><a href="#title-配置" class="headerlink" title="title: 配置"></a>title: 配置<a class="article-anchor" href="#title-配置" aria-hidden="true"></a></h2><p>您可以在 <code>_config.yml</code> 中修改大部份的配置。</p>
-<h2 id="网站" class="article-heading"><a href="#网站" class="headerlink" title="网站"></a>网站<a class="article-anchor" href="#网站" aria-hidden="true"></a></h2><table>
+                <h2 id="title-配置" class="article-heading">title: 配置<a class="article-anchor" href="#title-配置" aria-hidden="true"></a></h2>
+<p>您可以在 <code>_config.yml</code> 中修改大部份的配置。</p>
+<h2 id="网站" class="article-heading">网站<a class="article-anchor" href="#网站" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>title</code></td>
 <td>网站标题</td>
 </tr>
@@ -143,9 +146,11 @@
 <td><code>timezone</code></td>
 <td>网站时区。Hexo 默认使用您电脑的时区。<a target="_blank" rel="noopener external nofollow noreferrer" href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区列表</a>。比如说：<code>America/New_York</code>, <code>Japan</code>, 和 <code>UTC</code> 。</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <p>其中，<code>description</code>主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。<code>author</code>参数用于主题显示文章的作者。</p>
-<h2 id="网址" class="article-heading"><a href="#网址" class="headerlink" title="网址"></a>网址<a class="article-anchor" href="#网址" aria-hidden="true"></a></h2><table>
+<h2 id="网址" class="article-heading">网址<a class="article-anchor" href="#网址" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
@@ -153,7 +158,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>url</code></td>
 <td>网址</td>
 <td></td>
@@ -173,11 +179,12 @@
 <td>永久链接中各部分的默认值</td>
 <td></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote class="note info"><strong class="note-title">网站存放在子目录</strong><p>如果您的网站存放在子目录中，例如 <code>http://yoursite.com/blog</code>，则请将您的 <code>url</code> 设为 <code>http://yoursite.com/blog</code> 并把 <code>root</code> 设为 <code>/blog/</code>。</p>
 </blockquote>
-
-<h2 id="目录" class="article-heading"><a href="#目录" class="headerlink" title="目录"></a>目录<a class="article-anchor" href="#目录" aria-hidden="true"></a></h2><table>
+<h2 id="目录" class="article-heading">目录<a class="article-anchor" href="#目录" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
@@ -185,7 +192,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>source_dir</code></td>
 <td>资源文件夹，这个文件夹用来存放内容。</td>
 <td><code>source</code></td>
@@ -225,11 +233,12 @@
 <td>跳过指定文件的渲染，您可使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/isaacs/node-glob">glob 表达式</a>来匹配路径。</td>
 <td></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote class="note info"><strong class="note-title">提示</strong><p>如果您刚刚开始接触Hexo，通常没有必要修改这一部分的值。</p>
 </blockquote>
-
-<h2 id="文章" class="article-heading"><a href="#文章" class="headerlink" title="文章"></a>文章<a class="article-anchor" href="#文章" aria-hidden="true"></a></h2><table>
+<h2 id="文章" class="article-heading">文章<a class="article-anchor" href="#文章" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
@@ -237,7 +246,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>new_post_name</code></td>
 <td>新文章的文件名称</td>
 <td>:title.md</td>
@@ -292,11 +302,12 @@
 <td>代码块的设置</td>
 <td></td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 <blockquote class="note info"><strong class="note-title">相对地址</strong><p>默认情况下，Hexo生成的超链接都是绝对地址。例如，如果您的网站域名为<code>example.com</code>,您有一篇文章名为<code>hello</code>，那么绝对链接可能像这样：<code>http://example.com/hello.html</code>，它是<strong>绝对</strong>于域名的。相对链接像这样：<code>/hello.html</code>，也就是说，无论用什么域名访问该站点，都没有关系，这在进行反向代理时可能用到。通常情况下，建议使用绝对地址。</p>
 </blockquote>
-
-<h2 id="分类-amp-标签" class="article-heading"><a href="#分类-amp-标签" class="headerlink" title="分类 &amp; 标签"></a>分类 &amp; 标签<a class="article-anchor" href="#分类-amp-标签" aria-hidden="true"></a></h2><table>
+<h2 id="分类-标签" class="article-heading">分类 &amp; 标签<a class="article-anchor" href="#分类-标签" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
@@ -304,7 +315,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>default_category</code></td>
 <td>默认分类</td>
 <td><code>uncategorized</code></td>
@@ -319,8 +331,10 @@
 <td>标签别名</td>
 <td></td>
 </tr>
-</tbody></table>
-<h2 id="日期-时间格式" class="article-heading"><a href="#日期-时间格式" class="headerlink" title="日期 / 时间格式"></a>日期 / 时间格式<a class="article-anchor" href="#日期-时间格式" aria-hidden="true"></a></h2><p>Hexo 使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 来解析和显示时间。</p>
+</tbody>
+</table>
+<h2 id="日期-时间格式" class="article-heading">日期 / 时间格式<a class="article-anchor" href="#日期-时间格式" aria-hidden="true"></a></h2>
+<p>Hexo 使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://momentjs.com/">Moment.js</a> 来解析和显示时间。</p>
 <table>
 <thead>
 <tr>
@@ -329,7 +343,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>date_format</code></td>
 <td>日期格式</td>
 <td><code>YYYY-MM-DD</code></td>
@@ -339,8 +354,10 @@
 <td>时间格式</td>
 <td><code>H:mm:ss</code></td>
 </tr>
-</tbody></table>
-<h2 id="分页" class="article-heading"><a href="#分页" class="headerlink" title="分页"></a>分页<a class="article-anchor" href="#分页" aria-hidden="true"></a></h2><table>
+</tbody>
+</table>
+<h2 id="分页" class="article-heading">分页<a class="article-anchor" href="#分页" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
@@ -348,7 +365,8 @@
 <th>默认值</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>per_page</code></td>
 <td>每页显示的文章量 (0 = 关闭分页功能)</td>
 <td><code>10</code></td>
@@ -358,15 +376,18 @@
 <td>分页目录</td>
 <td><code>page</code></td>
 </tr>
-</tbody></table>
-<h2 id="扩展" class="article-heading"><a href="#扩展" class="headerlink" title="扩展"></a>扩展<a class="article-anchor" href="#扩展" aria-hidden="true"></a></h2><table>
+</tbody>
+</table>
+<h2 id="扩展" class="article-heading">扩展<a class="article-anchor" href="#扩展" aria-hidden="true"></a></h2>
+<table>
 <thead>
 <tr>
 <th>参数</th>
 <th>描述</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td><code>theme</code></td>
 <td>当前主题名称。值为<code>false</code>时禁用主题</td>
 </tr>
@@ -374,7 +395,8 @@
 <td><code>deploy</code></td>
 <td>部署部分的设置</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 
               </div>
               <footer class="article-footer">
@@ -387,7 +409,7 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目录</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E9%85%8D%E7%BD%AE"><span class="toc-text">title: 配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%AB%99"><span class="toc-text">网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E5%9D%80"><span class="toc-text">网址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0"><span class="toc-text">文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E7%B1%BB-amp-%E6%A0%87%E7%AD%BE"><span class="toc-text">分类 &amp; 标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%9F-%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F"><span class="toc-text">日期 &#x2F; 时间格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E9%A1%B5"><span class="toc-text">分页</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%A9%E5%B1%95"><span class="toc-text">扩展</span></a></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E9%85%8D%E7%BD%AE"><span class="toc-text">title: 配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%AB%99"><span class="toc-text">网站</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E5%9D%80"><span class="toc-text">网址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E7%AB%A0"><span class="toc-text">文章</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E7%B1%BB-%E6%A0%87%E7%AD%BE"><span class="toc-text">分类 &amp; 标签</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%9F-%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F"><span class="toc-text">日期 &#x2F; 时间格式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E9%A1%B5"><span class="toc-text">分页</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%A9%E5%B1%95"><span class="toc-text">扩展</span></a></li></ol>
               <a href="#" id="article-toc-top">回到顶部</a>
             </div>
           </aside>
@@ -395,7 +417,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="gestures.html" class="sidebar-link">手势说明</a><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
   </div>
 </aside>
     </div>
@@ -428,7 +450,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="gestures.html" class="mobile-nav-link">手势说明</a><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
@@ -454,10 +476,10 @@
     var button = document.createElement('button');
     buttonContainer.append(button)
   
-    button.textContent = copyButtonContent;
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -474,7 +496,10 @@
       document.execCommand('copy');
       document.body.removeChild(ta);
 
-      e.target.textContent = copiedButtonContent;
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
     });
   
     element.prepend(buttonContainer);

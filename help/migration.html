@@ -46,12 +46,12 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
   <!-- Open Graph -->
-  <meta name="description" content="title: 迁移RSS首先，安装 hexo-migrator-rss 插件。 $ npm install hexo-migrator-rss --save  插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。 $ hexo migrate rss &lt;source&gt;  Jekyll把 _posts 文件夹内的所有文件复制到 source&#x2F;_po">
+  <meta name="description" content="title: 迁移 RSS 首先，安装 hexo-migrator-rss 插件。 $ npm install hexo-migrator-rss --save 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。 $ hexo migrate rss &lt;source&gt; Jekyll 把 _posts 文件夹内的所有文件复制到 source&#x2F;_p">
 <meta property="og:type" content="website">
 <meta property="og:title" content="听阅">
 <meta property="og:url" content="https://eareyereading.com/help/migration">
 <meta property="og:site_name" content="听阅">
-<meta property="og:description" content="title: 迁移RSS首先，安装 hexo-migrator-rss 插件。 $ npm install hexo-migrator-rss --save  插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。 $ hexo migrate rss &lt;source&gt;  Jekyll把 _posts 文件夹内的所有文件复制到 source&#x2F;_po">
+<meta property="og:description" content="title: 迁移 RSS 首先，安装 hexo-migrator-rss 插件。 $ npm install hexo-migrator-rss --save 插件安装完成后，执行下列命令，从 RSS 迁移所有文章。source 可以是文件路径或网址。 $ hexo migrate rss &lt;source&gt; Jekyll 把 _posts 文件夹内的所有文件复制到 source&#x2F;_p">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
 <meta property="article:published_time" content="2025-02-16T02:50:57.503Z">
@@ -111,32 +111,31 @@
                 -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="title-迁移" class="article-heading"><a href="#title-迁移" class="headerlink" title="title: 迁移"></a>title: 迁移<a class="article-anchor" href="#title-迁移" aria-hidden="true"></a></h2><h2 id="RSS" class="article-heading"><a href="#RSS" class="headerlink" title="RSS"></a>RSS<a class="article-anchor" href="#RSS" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-rss</code> 插件。</p>
+                <h2 id="title-迁移" class="article-heading">title: 迁移<a class="article-anchor" href="#title-迁移" aria-hidden="true"></a></h2>
+<h2 id="RSS" class="article-heading">RSS<a class="article-anchor" href="#RSS" aria-hidden="true"></a></h2>
+<p>首先，安装 <code>hexo-migrator-rss</code> 插件。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-migrator-rss --save</span><br></pre></td></tr></table></figure>
-
 <p>插件安装完成后，执行下列命令，从 RSS 迁移所有文章。<code>source</code> 可以是文件路径或网址。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo migrate rss &lt;<span class="built_in">source</span>&gt;</span><br></pre></td></tr></table></figure>
-
-<h2 id="Jekyll" class="article-heading"><a href="#Jekyll" class="headerlink" title="Jekyll"></a>Jekyll<a class="article-anchor" href="#Jekyll" aria-hidden="true"></a></h2><p>把 <code>_posts</code> 文件夹内的所有文件复制到 <code>source/_posts</code> 文件夹，并在 <code>_config.yml</code> 中修改 <code>new_post_name</code> 参数。</p>
+<h2 id="Jekyll" class="article-heading">Jekyll<a class="article-anchor" href="#Jekyll" aria-hidden="true"></a></h2>
+<p>把 <code>_posts</code> 文件夹内的所有文件复制到 <code>source/_posts</code> 文件夹，并在 <code>_config.yml</code> 中修改 <code>new_post_name</code> 参数。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">new_post_name:</span> <span class="string">:year-:month-:day-:title.md</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="Octopress" class="article-heading"><a href="#Octopress" class="headerlink" title="Octopress"></a>Octopress<a class="article-anchor" href="#Octopress" aria-hidden="true"></a></h2><p>把 Octopress <code>source/_posts</code> 文件夹内的所有文件转移到 Hexo 的 <code>source/_posts</code> 文件夹，并修改 <code>_config.yml</code> 中的 <code>new_post_name</code> 参数。</p>
+<h2 id="Octopress" class="article-heading">Octopress<a class="article-anchor" href="#Octopress" aria-hidden="true"></a></h2>
+<p>把 Octopress <code>source/_posts</code> 文件夹内的所有文件转移到 Hexo 的 <code>source/_posts</code> 文件夹，并修改 <code>_config.yml</code> 中的 <code>new_post_name</code> 参数。</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">new_post_name:</span> <span class="string">:year-:month-:day-:title.md</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="WordPress" class="article-heading"><a href="#WordPress" class="headerlink" title="WordPress"></a>WordPress<a class="article-anchor" href="#WordPress" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
+<h2 id="WordPress" class="article-heading">WordPress<a class="article-anchor" href="#WordPress" aria-hidden="true"></a></h2>
+<p>首先，安装 <code>hexo-migrator-wordpress</code> 插件。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-migrator-wordpress --save</span><br></pre></td></tr></table></figure>
-
 <p>在 WordPress 仪表盘中导出数据(“Tools” → “Export” → “WordPress”)（详情参考<a target="_blank" rel="noopener external nofollow noreferrer" href="http://en.support.wordpress.com/export/">WP支持页面</a>）。</p>
 <p>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 WordPress 导出的文件路径或网址。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo migrate wordpress &lt;<span class="built_in">source</span>&gt;</span><br></pre></td></tr></table></figure>
-
 <blockquote class="note warn"><strong class="note-title">注意</strong><p>这个插件并不能完美地实现WordPress-&gt;Hexo的数据转换，尤其是在处理WordPress的分类方面存在问题（见<a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/zh-cn/docs/front-matter.html">Front-matter中的分类与标签</a>）。因此，建议您在迁移完成后，手工审阅所有生成的markdown文件，检查其中是否有错误。对于文章数量较大的WordPress站点，这项工作可能要花很长的时间。</p>
 </blockquote>
-
-<h2 id="Joomla" class="article-heading"><a href="#Joomla" class="headerlink" title="Joomla"></a>Joomla<a class="article-anchor" href="#Joomla" aria-hidden="true"></a></h2><p>首先，安装 <code>hexo-migrator-joomla</code> 插件。</p>
+<h2 id="Joomla" class="article-heading">Joomla<a class="article-anchor" href="#Joomla" aria-hidden="true"></a></h2>
+<p>首先，安装 <code>hexo-migrator-joomla</code> 插件。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-migrator-joomla --save</span><br></pre></td></tr></table></figure>
-
-<p>使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://extensions.joomla.org/extensions/migration-a-conversion/data-import-a-export/12816?qh=YToxOntpOjA7czo1OiJqMnhtbCI7fQ%3D%3D">J2XML</a> 组件导出 Joomla 文章。<br>插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 Joomla 导出的文件路径或网址。</p>
+<p>使用 <a target="_blank" rel="noopener external nofollow noreferrer" href="http://extensions.joomla.org/extensions/migration-a-conversion/data-import-a-export/12816?qh=YToxOntpOjA7czo1OiJqMnhtbCI7fQ%3D%3D">J2XML</a> 组件导出 Joomla 文章。<br>
+插件安装完成后，执行下列命令来迁移所有文章。<code>source</code> 可以是 Joomla 导出的文件路径或网址。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo migrate joomla &lt;<span class="built_in">source</span>&gt;</span><br></pre></td></tr></table></figure>
 
               </div>
@@ -158,7 +157,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
+    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="gestures.html" class="sidebar-link">手势说明</a><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a>
   </div>
 </aside>
     </div>
@@ -191,7 +190,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="gestures.html" class="mobile-nav-link">手势说明</a><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
@@ -217,10 +216,10 @@
     var button = document.createElement('button');
     buttonContainer.append(button)
   
-    button.textContent = copyButtonContent;
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
     button.classList.add('copy-btn');
     button.addEventListener('click', function(e) {
-      var lines = e.target.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
       var texts = Array.from(lines).map(function(node) {
         return node.textContent;
       }).join('\n');
@@ -237,7 +236,10 @@
       document.execCommand('copy');
       document.body.removeChild(ta);
 
-      e.target.textContent = copiedButtonContent;
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
     });
   
     element.prepend(buttonContainer);
