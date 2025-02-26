@@ -232,6 +232,37 @@
     </select>
   </div>
 </nav>
+  <script>
+  var copyButtonContent = '拷贝';
+  var highlights = document.querySelectorAll('.highlight');
+  highlights.forEach(function(element) {
+    var button = document.createElement('button');
+  
+    button.textContent = copyButtonContent;
+    button.classList.add('copy-btn');
+    button.addEventListener('click', function(e) {
+
+      var lines = e.target.parentElement.querySelector('.code').querySelectorAll('.line')
+      var texts = Array.from(lines).map(function(node) {
+        return node.textContent;
+      }).join('\n');
+
+      var ta = document.createElement('textarea');
+      document.body.appendChild(ta);
+      ta.style.position = 'fixed';
+      ta.style.top = 0;
+      ta.style.left = 0;
+      ta.value = texts;
+      ta.select();
+      ta.focus();
+
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    });
+  
+    element.prepend(button);
+  });
+</script>
   <!-- Scripts -->
 <!-- Cookie -->
 <script src="https://gcore.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
