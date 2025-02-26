@@ -46,16 +46,16 @@
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
   <!-- Open Graph -->
-  <meta name="description" content="title: 如何導入 MDICT 詞典  1. 導入詞典文件 2. 打開詞典  對於Mac版聽閱，需打开终端，然后输入命令”open&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Containers&#x2F;com.xuehu.words&#x2F;Data&#x2F;Documents&#x2F;dicts”, 然后將詞典文件拷貝到打开的目錄里，然後重啟應用即可。   1. 導入詞典文件MDICT詞典一般包含三類文件：mdx&#x2F;mdd&#x2F;cs">
+  <meta name="description" content="title: 匯入詞典聽閱支援匯入 MDICT 格式的詞典。此外，您還可以從我們提供的網盤下載用戶分享的、專為聽閱優化的詞典。這些詞典與聽閱內建詞典一樣，支持選擇單詞的單個釋義進行學習。 匯入 MDICT 詞典MDICT 詞典通常包含三類文件：mdx、mdd 和 css。您可以通過以下步驟將詞典文件匯入到聽閱中。  在電腦上整理詞典文件將所有與待匯入的詞典相關的文件放入一個文件夾中。建議每個詞典單">
 <meta property="og:type" content="website">
 <meta property="og:title" content="听阅">
 <meta property="og:url" content="https://eareyereading.com/zh-tw/help/dict-imports">
 <meta property="og:site_name" content="听阅">
-<meta property="og:description" content="title: 如何導入 MDICT 詞典  1. 導入詞典文件 2. 打開詞典  對於Mac版聽閱，需打开终端，然后输入命令”open&#x2F;Users&#x2F;xxx&#x2F;Library&#x2F;Containers&#x2F;com.xuehu.words&#x2F;Data&#x2F;Documents&#x2F;dicts”, 然后將詞典文件拷貝到打开的目錄里，然後重啟應用即可。   1. 導入詞典文件MDICT詞典一般包含三類文件：mdx&#x2F;mdd&#x2F;cs">
+<meta property="og:description" content="title: 匯入詞典聽閱支援匯入 MDICT 格式的詞典。此外，您還可以從我們提供的網盤下載用戶分享的、專為聽閱優化的詞典。這些詞典與聽閱內建詞典一樣，支持選擇單詞的單個釋義進行學習。 匯入 MDICT 詞典MDICT 詞典通常包含三類文件：mdx、mdd 和 css。您可以通過以下步驟將詞典文件匯入到聽閱中。  在電腦上整理詞典文件將所有與待匯入的詞典相關的文件放入一個文件夾中。建議每個詞典單">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
-<meta property="article:published_time" content="2025-02-16T02:50:57.591Z">
-<meta property="article:modified_time" content="2025-02-16T02:50:57.591Z">
+<meta property="article:published_time" content="2025-02-26T07:48:11.265Z">
+<meta property="article:modified_time" content="2025-02-26T07:48:11.265Z">
 <meta property="article:author" content="听阅">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://eareyereading.com/icon/twitter-summary.png">
@@ -71,7 +71,7 @@
       <a href="/zh-tw/"><span id="logo"></span><span>听阅</span></a>
     </h1>
     <nav id="main-nav">
-      <a href="/" class="main-nav-link">主页</a><a href="/help/" class="main-nav-link">文档</a>
+      <a href="/" class="main-nav-link">主頁</a><a href="/help/" class="main-nav-link">文件</a>
       <div id="search-input-wrap">
         <div id="search-input-icon">
           <i class="fa fa-search"></i>
@@ -107,47 +107,63 @@
               <header class="article-header">
                 <h1 class="article-title" itemprop="name"></h1>
                 <!--
-                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/zh-tw/help/dict-imports.md" class="article-edit-link" title="改善這篇文件"><i class="fa fa-pencil"></i></a>
+                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/zh-tw/help/dict-imports.md" class="article-edit-link" title="改進本文"><i class="fa fa-pencil"></i></a>
                 -->
               </header>
               <div class="article-content" itemprop="articleBody">
-                <h2 id="title-如何導入-MDICT-詞典" class="article-heading"><a href="#title-如何導入-MDICT-詞典" class="headerlink" title="title: 如何導入 MDICT 詞典 "></a>title: 如何導入 MDICT 詞典 <!-- omit in toc --><a class="article-anchor" href="#title-如何導入-MDICT-詞典" aria-hidden="true"></a></h2><ul>
-<li><a href="#1-導入詞典文件">1. 導入詞典文件</a></li>
-<li><a href="#2-打開詞典">2. 打開詞典</a></li>
-</ul>
-<blockquote class="note warn"><p>對於Mac版聽閱，需打开终端，然后输入命令”open/Users/xxx/Library/Containers/com.xuehu.words/Data/Documents/dicts”, 然后將詞典文件拷貝到打开的目錄里，然後重啟應用即可。</p>
-</blockquote>
-
-<h2 id="1-導入詞典文件" class="article-heading"><a href="#1-導入詞典文件" class="headerlink" title="1. 導入詞典文件"></a>1. 導入詞典文件<a class="article-anchor" href="#1-導入詞典文件" aria-hidden="true"></a></h2><p>MDICT詞典一般包含三類文件：mdx/mdd/css文件。您可通過百度網盤、AirDrop等方式將這些文件導入到聽閱中。</p>
-<p>通過<strong>百度網盤</strong>，您可按照以下步驟導入詞典。</p>
+                <h2 id="title-匯入詞典" class="article-heading"><a href="#title-匯入詞典" class="headerlink" title="title: 匯入詞典"></a>title: 匯入詞典<a class="article-anchor" href="#title-匯入詞典" aria-hidden="true"></a></h2><p>聽閱支援匯入 MDICT 格式的詞典。此外，您還可以從我們提供的網盤下載用戶分享的、專為聽閱優化的詞典。這些詞典與聽閱內建詞典一樣，支持選擇單詞的單個釋義進行學習。</p>
+<h2 id="匯入-MDICT-詞典" class="article-heading"><a href="#匯入-MDICT-詞典" class="headerlink" title="匯入 MDICT 詞典"></a>匯入 MDICT 詞典<a class="article-anchor" href="#匯入-MDICT-詞典" aria-hidden="true"></a></h2><p>MDICT 詞典通常包含三類文件：mdx、mdd 和 css。您可以通過以下步驟將詞典文件匯入到聽閱中。</p>
 <ol>
-<li><p>在iPhone/iPad中打開「百度網盤」應用。</p>
+<li><p><strong>在電腦上整理詞典文件</strong><br>將所有與待匯入的詞典相關的文件放入一個文件夾中。建議每個詞典單獨創建一個文件夾，便於管理。</p>
 </li>
-<li><p>找到您想導入的詞典文件，點擊並下載到設備中。</p>
+<li><p><strong>將詞典文件同步到設備</strong></p>
+<ul>
+<li><p><strong>iPhone/iPad</strong></p>
+<ol>
+<li>將整個詞典文件夾從電腦同步到 iPhone/iPad 上的聽閱應用中。如果您使用 Mac 電腦，請按照以下文件操作：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://support.apple.com/zh-cn/guide/mac-help/mchl4bd77d3a/mac">Mac同步指南</a>。如果您使用 Windows PC，請按照以下文件操作：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://support.apple.com/zh-cn/guide/itunes/itns32636/windows">PC同步指南</a>。</li>
+<li>在設備上打開「文件」應用，選擇“我的iPhone” -&gt; “聽閱”，然後確認詞典文件是否已正確存放在聽閱目錄中。</li>
+</ol>
 </li>
-<li><p>等下載完成後，輕點頁面上的「用其他應用打開」按鈕。</p>
-<img src="../images/img_dict_baidu_open.png" height="320">
+<li><p><strong>Mac</strong></p>
+<ol>
+<li>打開「終端」應用。</li>
+<li>在終端中輸入以下命令（請將 <code>xxx</code> 替換為你的電腦用戶名）打開詞典文件所在的目錄：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">open /Users/xxx/Library/Containers/com.xuehu.words/Data/Documents/dicts</span><br></pre></td></tr></table></figure></li>
+<li>將你的詞典文件夾拷貝到此目錄。</li>
+</ol>
 </li>
-<li><p>在應用列表中找到聽閱並點擊，詞典將自動拷貝到聽閱目錄中。</p>
-<img src="../images/img_dict_baidu_open_tingyue.png" height="320">
+</ul>
 </li>
-<li><p>重啟「聽閱」。</p>
+<li><p><strong>重啟聽閱</strong><br>完成同步後，重啟聽閱應用，詞典將自動加載。</p>
+</li>
+<li><p><strong>詞典查詞</strong><br>查詞時，在詞典詳情頁，點按菜單欄圖標 <img class="icon" src="../images/icon_dict_imported.png"> 即可查看匯入的詞典。</p>
+<img src="../images/img_dict_open_mdict_icon.png" width="320" style="display:block">
+
+<p>如果菜單欄中沒有該圖標，請點擊右側的設置按鈕，然後在詞典設置頁面勾選“用戶詞典”即可。</p>
 </li>
 </ol>
-<blockquote class="note info"><strong class="note-title">如何檢查文件是否導入成功</strong><p>您在手機上打開蘋果應用「文件」，選擇「我的iPhone」 -&gt; 「聽閱」，然後檢查詞典文件是否在聽閱目錄中。<br><img src="../images/img_dict_added_to_file.png" height="320"></p>
-</blockquote>
-
-<blockquote class="note warn"><strong class="note-title">導入詞典不生效</strong><p>詞典文件導入聽閱後，需重啟聽閱後詞典文件才能生效。</p>
-</blockquote>
-
-<h2 id="2-打開詞典" class="article-heading"><a href="#2-打開詞典" class="headerlink" title="2. 打開詞典"></a>2. 打開詞典<a class="article-anchor" href="#2-打開詞典" aria-hidden="true"></a></h2><p>導入詞典後，在詞典詳情頁，點按圖標<img src="../images/icon_dict_imported.png" width="15" height="15">。若菜單欄無此圖標，請點擊最右邊的更多圖標，然後在詞典設置頁面選中「用戶詞典」。<br><img src="../images/img_dict_open_icon.png" height="320"></p>
-<p>在彈出頁面中，我們將顯示所有導入的詞典。</p>
-<img src="../images/img_dict_opened_view.jpg" height="320">
+<h2 id="匯入聽閱詞典" class="article-heading"><a href="#匯入聽閱詞典" class="headerlink" title="匯入聽閱詞典"></a>匯入聽閱詞典<a class="article-anchor" href="#匯入聽閱詞典" aria-hidden="true"></a></h2><p>聽閱詞典是用戶分享的、專為聽閱優化的詞典。這些詞典與應用內建詞典一樣，支持選擇單詞的單個釋義進行學習。您可以通過以下方式從<a target="_blank" rel="noopener external nofollow noreferrer" href="https://pan.baidu.com/s/1TaRKgDyieHwwmdDtSjPM1g?pwd=g565">網盤</a>下載並匯入到聽閱中使用。</p>
+<p><strong>在電腦上下載</strong></p>
+<ul>
+<li>訪問<a target="_blank" rel="noopener external nofollow noreferrer" href="https://pan.baidu.com/s/1TaRKgDyieHwwmdDtSjPM1g?pwd=g565">百度網盤鏈接</a>，下載後綴為 ziptd 的詞典文件。</li>
+<li>下載完成後，將文件後綴從 ziptd 改為 zip，然後解壓文件。</li>
+<li>按照匯入 MDICT 詞典的步驟，將解壓後的文件匯入到聽閱應用中。</li>
+<li>匯入完成後，重啟聽閱。</li>
+</ul>
+<p><strong>在iPhone/iPad上下載</strong></p>
+<ul>
+<li>通過「百度網盤」應用打開<a href="(https://pan.baidu.com/s/1TaRKgDyieHwwmdDtSjPM1g?pwd=g565)">分享鏈接</a>，下載擴展名為 ziptd 的詞典文件。</li>
+<li>下載完成後，點擊文件，選擇“用其他應用打開”，然後選擇“儲存到文件”並保存到聽閱目錄中。</li>
+<li>打開「文件」應用，選擇“瀏覽” -&gt; “我的iPhone” -&gt; “聽閱”，找到保存的詞典文件。長按文件，選擇“重新命名”，將後綴名 ziptd 改為 zip。</li>
+<li>點擊 zip 文件進行解壓。</li>
+<li>解壓完成後，重啟聽閱。</li>
+</ul>
+<p>匯入後，菜單欄將會顯示專門的圖標來標識該詞典。例如，匯入“韋氏高階英漢雙解詞典.ziptd”後的菜單欄如下：<br><img src="../images/img_dict_open_tingyue_icon.png" width="320" style="display:block"></p>
+<p>查詞時，只需點擊該詞典圖標即可查看匯入的詞典。如果菜單欄中沒有該圖標，請點擊右側的設置按鈕，在詞典設置頁面勾選您匯入的詞典即可。</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2025-02-16T02:50:57.591Z" itemprop="dateModified">上次更新：2025-02-16</time>
-                <a href="fast-reading.html" class="article-footer-prev" title="速读模式"><i class="fa fa-chevron-left"></i><span>上一頁</span></a>
+                <time class="article-footer-updated" datetime="2025-02-26T07:48:11.265Z" itemprop="dateModified">上次更新：2025-02-26</time>
+                <a href="fast-reading.html" class="article-footer-prev" title="速讀模式"><i class="fa fa-chevron-left"></i><span>上一頁</span></a>
               </footer>
               
             </div>
@@ -155,15 +171,15 @@
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">目錄</strong>
-              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E5%A6%82%E4%BD%95%E5%B0%8E%E5%85%A5-MDICT-%E8%A9%9E%E5%85%B8"><span class="toc-text">title: 如何導入 MDICT 詞典 </span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%B0%8E%E5%85%A5%E8%A9%9E%E5%85%B8%E6%96%87%E4%BB%B6"><span class="toc-text">1. 導入詞典文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%89%93%E9%96%8B%E8%A9%9E%E5%85%B8"><span class="toc-text">2. 打開詞典</span></a></li></ol>
-              <a href="#" id="article-toc-top">回到頁首</a>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-%E5%8C%AF%E5%85%A5%E8%A9%9E%E5%85%B8"><span class="toc-text">title: 匯入詞典</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%AF%E5%85%A5-MDICT-%E8%A9%9E%E5%85%B8"><span class="toc-text">匯入 MDICT 詞典</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%AF%E5%85%A5%E8%81%BD%E9%96%B1%E8%A9%9E%E5%85%B8"><span class="toc-text">匯入聽閱詞典</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到頂部</a>
             </div>
           </aside>
         </div>
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">使用说明</a><a href="word-lookup.html" class="sidebar-link">查词</a><a href="translation.html" class="sidebar-link">翻译</a><a href="read-loud.html" class="sidebar-link">朗读</a><a href="learnings.html" class="sidebar-link">学习</a><a href="membership.html" class="sidebar-link">会员</a><strong class="sidebar-title">阅读</strong><a href="word-analysis.html" class="sidebar-link">词汇分析</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="highlight-words.html" class="sidebar-link">生词高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="dialyze.html" class="sidebar-link">透析阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="fast-reading.html" class="sidebar-link">速读模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link current">导入词典</a>
+    <strong class="sidebar-title">開始使用</strong><a href="index.html" class="sidebar-link">使用說明</a><a href="word-lookup.html" class="sidebar-link">查詞</a><a href="translation.html" class="sidebar-link">翻譯</a><a href="read-loud.html" class="sidebar-link">朗讀</a><a href="learnings.html" class="sidebar-link">學習</a><a href="membership.html" class="sidebar-link">會員</a><strong class="sidebar-title">閱讀</strong><a href="word-analysis.html" class="sidebar-link">詞彙分析</a><a href="word-wise.html" class="sidebar-link">生詞提示</a><a href="highlight-words.html" class="sidebar-link">生詞高亮</a><a href="bionic-reading.html" class="sidebar-link">仿生閱讀</a><a href="spreeder.html" class="sidebar-link">快速閱讀</a><a href="dialyze.html" class="sidebar-link">透析閱讀</a><a href="hollow-learnings.html" class="sidebar-link">挖空隱藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><a href="fast-reading.html" class="sidebar-link">速讀模式</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link current">匯入詞典</a>
   </div>
 </aside>
     </div>
@@ -177,9 +193,9 @@
     </div>
     <div id="footer-links">
       
-        <a href="/help/privacy.html" class="footer-link" >隐私声明</a>
+        <a href="/help/privacy.html" class="footer-link" >隱私聲明</a>
       
-        <a href="/help/copyright.html" class="footer-link" >内容合作</a>
+        <a href="/help/copyright.html" class="footer-link" >內容合作</a>
       
     </div>
   </div>
@@ -190,13 +206,13 @@
   <nav id="mobile-nav">
   <div id="mobile-nav-inner">
     <ul id="mobile-nav-list">
-      <a href="/" class="mobile-nav-link">主页</a><a href="/help/" class="mobile-nav-link">文档</a>
+      <a href="/" class="mobile-nav-link">主頁</a><a href="/help/" class="mobile-nav-link">文件</a>
       <li class="mobile-nav-item">
         <a href="https://github.com/" class="mobile-nav-link" rel="external" target="_blank">GitHub</a>
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">使用说明</a><a href="word-lookup.html" class="mobile-nav-link">查词</a><a href="translation.html" class="mobile-nav-link">翻译</a><a href="read-loud.html" class="mobile-nav-link">朗读</a><a href="learnings.html" class="mobile-nav-link">学习</a><a href="membership.html" class="mobile-nav-link">会员</a><strong class="mobile-nav-title">阅读</strong><a href="word-analysis.html" class="mobile-nav-link">词汇分析</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="highlight-words.html" class="mobile-nav-link">生词高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="dialyze.html" class="mobile-nav-link">透析阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="fast-reading.html" class="mobile-nav-link">速读模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link current">导入词典</a>
+      <strong class="mobile-nav-title">開始使用</strong><a href="index.html" class="mobile-nav-link">使用說明</a><a href="word-lookup.html" class="mobile-nav-link">查詞</a><a href="translation.html" class="mobile-nav-link">翻譯</a><a href="read-loud.html" class="mobile-nav-link">朗讀</a><a href="learnings.html" class="mobile-nav-link">學習</a><a href="membership.html" class="mobile-nav-link">會員</a><strong class="mobile-nav-title">閱讀</strong><a href="word-analysis.html" class="mobile-nav-link">詞彙分析</a><a href="word-wise.html" class="mobile-nav-link">生詞提示</a><a href="highlight-words.html" class="mobile-nav-link">生詞高亮</a><a href="bionic-reading.html" class="mobile-nav-link">仿生閱讀</a><a href="spreeder.html" class="mobile-nav-link">快速閱讀</a><a href="dialyze.html" class="mobile-nav-link">透析閱讀</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隱藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><a href="fast-reading.html" class="mobile-nav-link">速讀模式</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link current">匯入詞典</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
