@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/highlight-words</loc>
+    <loc>https://eareyereading.com/zh-tw/help/gestures</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/gestures</loc>
+    <loc>https://eareyereading.com/zh-tw/help/highlight-words</loc>
     
     <lastmod>2025-02-26</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/lrc-adjust-timestamp</loc>
+    <loc>https://eareyereading.com/zh-tw/help/lrc-combine</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/lrc-combine</loc>
+    <loc>https://eareyereading.com/zh-tw/help/lrc-adjust-timestamp</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/membership-book</loc>
+    <loc>https://eareyereading.com/zh-tw/help/make-lrc-book</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -389,7 +389,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/make-lrc-book</loc>
+    <loc>https://eareyereading.com/zh-tw/help/membership-book</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/cross-app-trans</loc>
+    <loc>https://eareyereading.com/zh-tw/help/copyright</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/copyright</loc>
+    <loc>https://eareyereading.com/zh-tw/help/cross-app-trans</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -884,7 +884,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/cross-app-trans</loc>
+    <loc>https://eareyereading.com/help/data-files</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -893,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/data-files</loc>
+    <loc>https://eareyereading.com/help/cross-app-trans</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/fast-reading</loc>
+    <loc>https://eareyereading.com/help/font-imports</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -956,7 +956,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/font-imports</loc>
+    <loc>https://eareyereading.com/help/fast-reading</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -1010,7 +1010,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/book-imports</loc>
+    <loc>https://eareyereading.com/help/book-imports-others</loc>
     
     <lastmod>2025-02-16</lastmod>
     
@@ -1019,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/book-imports-others</loc>
+    <loc>https://eareyereading.com/help/book-imports</loc>
     
     <lastmod>2025-02-16</lastmod>
     
