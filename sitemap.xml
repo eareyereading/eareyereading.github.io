@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
+    
+    <lastmod>2025-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/dict-imports</loc>
+    
+    <lastmod>2025-03-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/zh-tw/help/word-analysis</loc>
     
     <lastmod>2025-03-04</lastmod>
@@ -39,24 +57,6 @@
   
   <url>
     <loc>https://eareyereading.com/help/</loc>
-    
-    <lastmod>2025-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
-    
-    <lastmod>2025-03-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/dict-imports</loc>
     
     <lastmod>2025-03-04</lastmod>
     
