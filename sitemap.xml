@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://eareyereading.com/help/dict-imports</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/zh-tw/help/subscriptions</loc>
     
     <lastmod>2025-03-09</lastmod>
@@ -65,25 +83,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/dict-imports</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/zh-tw/help/</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/dict-imports</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -200,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/privacy-news</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/en/help/privacy</loc>
     
     <lastmod>2025-03-09</lastmod>
@@ -218,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/readability</loc>
+    <loc>https://eareyereading.com/en/help/privacy-news</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -228,6 +219,15 @@
   
   <url>
     <loc>https://eareyereading.com/en/help/sogou</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/en/help/readability</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -290,24 +290,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/highlight-words</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/en/help/</loc>
-    
-    <lastmod>2025-03-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/en/help/hollow-learnings</loc>
     
     <lastmod>2025-03-09</lastmod>
@@ -317,7 +299,25 @@
   </url>
   
   <url>
+    <loc>https://eareyereading.com/en/help/highlight-words</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/en/help/lrc-adjust-timestamp</loc>
+    
+    <lastmod>2025-03-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/en/help/</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/about-collins-freq</loc>
+    <loc>https://eareyereading.com/en/help/add-translation-chars</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -452,7 +452,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/add-translation-chars</loc>
+    <loc>https://eareyereading.com/en/help/about-collins-freq</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/blur-content</loc>
+    <loc>https://eareyereading.com/en/help/book-imports-others</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -488,7 +488,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/book-imports-others</loc>
+    <loc>https://eareyereading.com/en/help/blur-content</loc>
     
     <lastmod>2025-03-09</lastmod>
     
@@ -668,7 +668,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/privacy</loc>
+    <loc>https://eareyereading.com/zh-tw/help/readability</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -677,7 +677,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/readability</loc>
+    <loc>https://eareyereading.com/zh-tw/help/privacy</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -830,15 +830,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/baidu</loc>
-    
-    <lastmod>2025-03-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/zh-tw/help/add-translation-chars</loc>
     
     <lastmod>2025-03-06</lastmod>
@@ -849,6 +840,15 @@
   
   <url>
     <loc>https://eareyereading.com/zh-tw/help/bionic-reading</loc>
+    
+    <lastmod>2025-03-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/baidu</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -893,7 +893,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/word-lookup</loc>
+    <loc>https://eareyereading.com/help/writing</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -902,7 +902,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/writing</loc>
+    <loc>https://eareyereading.com/help/word-lookup</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -938,7 +938,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/translation</loc>
+    <loc>https://eareyereading.com/help/troubleshooting</loc>
     
     <lastmod>2025-03-06</lastmod>
     
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/troubleshooting</loc>
+    <loc>https://eareyereading.com/help/translation</loc>
     
     <lastmod>2025-03-06</lastmod>
     
