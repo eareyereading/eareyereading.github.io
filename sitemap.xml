@@ -2,7 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://eareyereading.com/en/help/release-notes</loc>
+    <loc>https://eareyereading.com/en/help/shortcuts</loc>
+    
+    <lastmod>2025-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/release-notes</loc>
+    
+    <lastmod>2025-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/shortcuts</loc>
+    
+    <lastmod>2025-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/blur-content</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -20,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/blur-content</loc>
+    <loc>https://eareyereading.com/help/blur-content</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -29,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/blur-content</loc>
+    <loc>https://eareyereading.com/en/help/release-notes</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -56,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/word-analysis</loc>
+    <loc>https://eareyereading.com/zh-tw/help/word-lookup</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -65,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/word-lookup</loc>
+    <loc>https://eareyereading.com/zh-tw/help/word-analysis</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -92,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/subscriptions</loc>
+    <loc>https://eareyereading.com/zh-tw/help/support</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -101,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/support</loc>
+    <loc>https://eareyereading.com/zh-tw/help/subscriptions</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -137,15 +164,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/user_make_lrc</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/zh-tw/help/transfer-proship</loc>
     
     <lastmod>2025-03-31</lastmod>
@@ -155,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/readability</loc>
+    <loc>https://eareyereading.com/zh-tw/help/user_make_lrc</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -165,6 +183,15 @@
   
   <url>
     <loc>https://eareyereading.com/zh-tw/help/privacy</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/zh-tw/help/readability</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -236,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/hollow-learnings</loc>
+    <loc>https://eareyereading.com/zh-tw/help/highlight-words</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -245,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/zh-tw/help/highlight-words</loc>
+    <loc>https://eareyereading.com/zh-tw/help/hollow-learnings</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -497,7 +524,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/writing</loc>
+    <loc>https://eareyereading.com/help/youdao</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -506,7 +533,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/youdao</loc>
+    <loc>https://eareyereading.com/help/writing</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -587,15 +614,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/support</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/help/subscriptions</loc>
     
     <lastmod>2025-03-31</lastmod>
@@ -605,7 +623,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/tap-to-listen</loc>
+    <loc>https://eareyereading.com/help/support</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -623,34 +641,16 @@
   </url>
   
   <url>
+    <loc>https://eareyereading.com/help/tap-to-listen</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/help/tencent</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/plugins</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/privacy</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://eareyereading.com/help/read-loud</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -668,7 +668,34 @@
   </url>
   
   <url>
+    <loc>https://eareyereading.com/help/plugins</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/read-loud</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eareyereading.com/help/readability</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/privacy</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -785,7 +812,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/migration</loc>
+    <loc>https://eareyereading.com/help/membership</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -794,7 +821,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/membership</loc>
+    <loc>https://eareyereading.com/help/migration</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -812,15 +839,6 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/fast-reading</loc>
-    
-    <lastmod>2025-03-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://eareyereading.com/help/faq</loc>
     
     <lastmod>2025-03-31</lastmod>
@@ -830,7 +848,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/font-imports</loc>
+    <loc>https://eareyereading.com/help/fast-reading</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -848,7 +866,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/gestures</loc>
+    <loc>https://eareyereading.com/help/font-imports</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -858,6 +876,15 @@
   
   <url>
     <loc>https://eareyereading.com/help/generating</loc>
+    
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://eareyereading.com/help/gestures</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -992,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/asset-folders</loc>
+    <loc>https://eareyereading.com/help/baidu</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -1001,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/help/baidu</loc>
+    <loc>https://eareyereading.com/help/asset-folders</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -1154,7 +1181,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/support</loc>
+    <loc>https://eareyereading.com/en/help/subscriptions</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -1163,7 +1190,7 @@
   </url>
   
   <url>
-    <loc>https://eareyereading.com/en/help/subscriptions</loc>
+    <loc>https://eareyereading.com/en/help/support</loc>
     
     <lastmod>2025-03-31</lastmod>
     
@@ -1486,19 +1513,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://eareyereading.com/help/release-notes</loc>
-    
-    <lastmod>2025-03-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://eareyereading.com/</loc>
-    <lastmod>2025-03-31</lastmod>
+    <lastmod>2025-04-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
