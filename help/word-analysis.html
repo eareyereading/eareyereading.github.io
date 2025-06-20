@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>词频统计 | 听阅</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://eareyereading.com/help/word-analysis">
+  <!-- Alternate links -->
+  
+    
+      
+        <link rel="alternate" hreflang="zh-tw" href="https://eareyereading.com/zh-tw/help/word-analysis">
+      
+    
+      
+    
+      
+        <link rel="alternate" hreflang="en" href="https://eareyereading.com/en/help/word-analysis">
+      
+    
+    <link rel="alternate" hreflang="x-default" href="https://eareyereading.com/en/help/word-analysis" />
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icon/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icon/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icon/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icon/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <!-- CSS -->
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/typeface-lato@0.0.75/index.min.css">
+  <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://gcore.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="听阅" type="application/atom+xml">
+  <!-- Open Graph -->
+  <meta name="description" content="如何开启 功能说明 单词分类说明  在阅读过程中，想知道书中哪些词出现得最多？哪些词是关键词？我们的词频统计功能帮助您轻松掌握书籍的核心词汇，提升阅读理解和语言学习效率。         如何开启 要分析书籍词汇，请按照以下步骤操作：  打开您想要阅读的电子书。 点击屏幕顶部菜单栏的 。若菜单栏中未显示该图标，请点击右侧的更多按钮 ，并选择“全书词频”以分析整本书的词频，或“章节词频”分析当前章">
+<meta property="og:type" content="website">
+<meta property="og:title" content="词频统计">
+<meta property="og:url" content="https://eareyereading.com/help/word-analysis">
+<meta property="og:site_name" content="听阅">
+<meta property="og:description" content="如何开启 功能说明 单词分类说明  在阅读过程中，想知道书中哪些词出现得最多？哪些词是关键词？我们的词频统计功能帮助您轻松掌握书籍的核心词汇，提升阅读理解和语言学习效率。         如何开启 要分析书籍词汇，请按照以下步骤操作：  打开您想要阅读的电子书。 点击屏幕顶部菜单栏的 。若菜单栏中未显示该图标，请点击右侧的更多按钮 ，并选择“全书词频”以分析整本书的词频，或“章节词频”分析当前章">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://eareyereading.com/icon/og-image-wide.png">
+<meta property="article:published_time" content="2025-03-31T03:21:46.512Z">
+<meta property="article:modified_time" content="2025-03-31T03:21:46.512Z">
+<meta property="article:author" content="听阅">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://eareyereading.com/icon/twitter-summary.png">
+  <!-- Google Analytics -->
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <h1 id="logo-wrap">
+      <a href="/"><span id="logo"></span><span>听阅</span></a>
+    </h1>
+    <nav id="main-nav">
+      <a href="/" class="main-nav-link">主页</a><a href="/help/" class="main-nav-link">文档</a>
+      <div id="search-input-wrap">
+        <div id="search-input-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <input type="search" id="search-input" placeholder="Search...">
+      </div>
+    </nav>
+    <div id="lang-select-wrap">
+      <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
+      <select id="lang-select" data-canonical="help/word-analysis.html">
+        
+          <option value="zh-tw">繁體中文</option>
+        
+          <option value="zh-cn" selected>简体中文</option>
+        
+          <option value="en">English</option>
+        
+      </select>
+    </div>
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">词频统计</h1>
+                <!--
+                <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/hexojs/site/edit/master/source/help/word-analysis.md" class="article-edit-link" title="改进本文"><i class="fa fa-pencil"></i></a>
+                -->
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <html><head></head><body><ul>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AF">如何开启</a></li>
+<li><a href="#%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E">功能说明</a></li>
+<li><a href="#%E5%8D%95%E8%AF%8D%E5%88%86%E7%B1%BB%E8%AF%B4%E6%98%8E">单词分类说明</a></li>
+</ul>
+<p>在阅读过程中，想知道书中哪些词出现得最多？哪些词是关键词？我们的词频统计功能帮助您轻松掌握书籍的核心词汇，提升阅读理解和语言学习效率。</p>
+<div class="iphone-16-frame-container">
+  <img src="../images/img_word_analysis_demo.webp" class="iphone-16-content">
+  <img src="../images/img_iphone16_frame.webp" class="iphone-16-frame">
+</div>
+<h3 id="如何开启" class="article-heading">如何开启<a class="article-anchor" href="#如何开启" aria-hidden="true"></a></h3>
+<p>要分析书籍词汇，请按照以下步骤操作：</p>
+<ol>
+<li>打开您想要阅读的电子书。</li>
+<li>点击屏幕顶部菜单栏的 <img class="icon" src="../images/chart.pie.fill.png">。若菜单栏中未显示该图标，请点击右侧的更多按钮 <img class="icon" src="../images/ellipsis.circle.png">，并选择“全书词频”以分析整本书的词频，或“章节词频”分析当前章节的词频。<br>
+<img src="../images/img_word_analysis_btn.webp" width="320px"></li>
+</ol>
+<h3 id="功能说明" class="article-heading">功能说明<a class="article-anchor" href="#功能说明" aria-hidden="true"></a></h3>
+<p>在词频分析过程中，我们会依据以下流程将单词划分为五个类别，并统计每个类别的单词数量及其占总词汇量的比例。其中，总词汇量指这五个类别的单词总和。</p>
+<pre class="mermaid">flowchart TD
+    A[开始] --&gt; B{是否在词典中查找到？}
+    B --&gt; |是| C{是否在忽略词汇表中？}
+    B --&gt; |否| D[未检索到]
+    C --&gt; |是| E[已忽略]
+    C --&gt; |否| F{是否标记为认识？}
+    F --&gt; |是| G[已认识]
+    F --&gt; |否| H{是否已加入学习？}
+    H --&gt; |是| I[正在学习]
+    H --&gt; |否| J[待学习]</pre>
+<p>此外，我们还会统计生词表中包含的书中单词数，并计算其占比，帮助用户更直观地了解生词表的词汇覆盖情况。</p>
+<h3 id="单词分类说明" class="article-heading">单词分类说明<a class="article-anchor" href="#单词分类说明" aria-hidden="true"></a></h3>
+<ul>
+<li>
+<p><strong>待学习</strong><br>
+词典中可查找到，且尚未被标记的单词。在此列表中，<br>
+– 点击 <img class="icon" src="../images/flag.png"> 可将单词标记为<strong>已认识</strong>。<br>
+– 点击 <img class="icon" src="../images/star.png"> 可将单词加入<strong>正在学习</strong>。<br>
+– 显示单词在书中的出现次数。点击数字可查看所有包含该单词的句子。<br>
+– 单词按照出现次数进行排名。排名第 1 的单词为书中出现频率最高的单词。<br>
+– 可根据 <strong>频次</strong>、<strong>单词</strong>、<strong>排名</strong>、<strong>长度</strong>、<strong>位置</strong> 对单词进行排序，方便筛选和管理。</p>
+</li>
+<li>
+<p><strong>正在学习</strong><br>
+已加入学习的单词。</p>
+</li>
+<li>
+<p><strong>已认识</strong><br>
+已被标记为认识的单词。</p>
+</li>
+<li>
+<p><strong>已忽略</strong><br>
+在<strong>忽略词汇表</strong>中的单词。</p>
+</li>
+<li>
+<p><strong>未检索到</strong><br>
+在词典中未查找到的单词。</p>
+</li>
+</ul>
+</body></html>
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2025-03-31T03:21:46.512Z" itemprop="dateModified">上次更新：2025-03-31</time>
+                <a href="gestures.html" class="article-footer-prev" title="手势说明"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="word-wise.html" class="article-footer-next" title="生词提示"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">目录</strong>
+              <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%BC%80%E5%90%AF"><span class="toc-text">如何开启</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E8%AF%B4%E6%98%8E"><span class="toc-text">功能说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E8%AF%8D%E5%88%86%E7%B1%BB%E8%AF%B4%E6%98%8E"><span class="toc-text">单词分类说明</span></a></li></ol>
+              <a href="#" id="article-toc-top">回到顶部</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">阅读</strong><a href="gestures.html" class="sidebar-link">手势说明</a><a href="word-analysis.html" class="sidebar-link current">词频统计</a><a href="word-wise.html" class="sidebar-link">生词提示</a><a href="bionic-reading.html" class="sidebar-link">仿生阅读</a><a href="spreeder.html" class="sidebar-link">快速阅读</a><a href="hollow-learnings.html" class="sidebar-link">挖空隐藏</a><a href="blur-content.html" class="sidebar-link">模糊文本</a><strong class="sidebar-title">其他</strong><a href="dict-imports.html" class="sidebar-link">导入词典</a><a href="shortcuts.html" class="sidebar-link">快捷键</a><a href="subscriptions.html" class="sidebar-link">听阅会员</a><a href="release-notes.html" class="sidebar-link">更新日志</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      Copyright &copy; 2025 <a href="https://github.com/hexojs/hexo/graphs/contributors" rel="external nofollow noreferrer" target="_blank">听阅</a> 保留所有权利。<br>
+    </div>
+    <div id="footer-links">
+      
+        <a href="/help/privacy.html" class="footer-link" >隐私声明</a>
+      
+        <a href="/help/copyright.html" class="footer-link" >内容合作</a>
+      
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/" class="mobile-nav-link">主页</a><a href="/help/" class="mobile-nav-link">文档</a>
+    </ul>
+    
+      <strong class="mobile-nav-title">阅读</strong><a href="gestures.html" class="mobile-nav-link">手势说明</a><a href="word-analysis.html" class="mobile-nav-link current">词频统计</a><a href="word-wise.html" class="mobile-nav-link">生词提示</a><a href="bionic-reading.html" class="mobile-nav-link">仿生阅读</a><a href="spreeder.html" class="mobile-nav-link">快速阅读</a><a href="hollow-learnings.html" class="mobile-nav-link">挖空隐藏</a><a href="blur-content.html" class="mobile-nav-link">模糊文本</a><strong class="mobile-nav-title">其他</strong><a href="dict-imports.html" class="mobile-nav-link">导入词典</a><a href="shortcuts.html" class="mobile-nav-link">快捷键</a><a href="subscriptions.html" class="mobile-nav-link">听阅会员</a><a href="release-notes.html" class="mobile-nav-link">更新日志</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></span>
+    <select id="mobile-lang-select" data-canonical="help/word-analysis.html">
+      
+        <option value="zh-tw">繁體中文</option>
+      
+        <option value="zh-cn" selected>简体中文</option>
+      
+        <option value="en">English</option>
+      
+    </select>
+  </div>
+</nav>
+  <script>
+  var copyButtonContent = '拷贝';
+  var copiedButtonContent = '已拷贝';
+
+  var highlights = document.querySelectorAll('.highlight');
+  highlights.forEach(function(element) {
+    var buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('copy-btn-container')
+
+    var button = document.createElement('button');
+    buttonContainer.append(button)
+  
+    button.innerHTML = '<img src="../images/icon_copy.png"/>';
+    button.classList.add('copy-btn');
+    button.addEventListener('click', function(e) {
+      var lines = e.target.parentElement.parentElement.parentElement.querySelector('.code').querySelectorAll('.line')
+      var texts = Array.from(lines).map(function(node) {
+        return node.textContent;
+      }).join('\n');
+
+      var ta = document.createElement('textarea');
+      document.body.appendChild(ta);
+      ta.style.position = 'fixed';
+      ta.style.top = 0;
+      ta.style.left = 0;
+      ta.value = texts;
+      ta.select();
+      ta.focus();
+
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+
+      e.target.src = '../images/icon_checkmark.png';
+      setTimeout(function() {
+        e.target.src = '../images/icon_copy.png';
+      }, 1000);
+    });
+  
+    element.prepend(buttonContainer);
+  });
+</script>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="https://gcore.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+<!-- Mermaid -->
+
+  <script src='https://unpkg.com/mermaid@latest/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize();
+    }
+  </script>
+
+</body>
+</html>
