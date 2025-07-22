@@ -1,12 +1,16 @@
+https://www.eareyereading.com/help/release-notes
+https://www.eareyereading.com/
+https://www.eareyereading.com/help/blur-content
+https://www.eareyereading.com/help/fulltext-translation
+https://www.eareyereading.com/help/subscriptions
+https://www.eareyereading.com/help/
 https://www.eareyereading.com/zh-tw/help/word-wise
 https://www.eareyereading.com/en/help/word-wise
-https://www.eareyereading.com/help/release-notes
 https://www.eareyereading.com/en/help/shortcuts
 https://www.eareyereading.com/zh-tw/help/shortcuts
 https://www.eareyereading.com/en/help/release-notes
 https://www.eareyereading.com/zh-tw/help/release-notes
 https://www.eareyereading.com/zh-tw/help/blur-content
-https://www.eareyereading.com/help/blur-content
 https://www.eareyereading.com/en/help/blur-content
 https://www.eareyereading.com/zh-tw/
 https://www.eareyereading.com/zh-tw/help/word-analysis
@@ -43,7 +47,6 @@ https://www.eareyereading.com/zh-tw/help/dialyze-book
 https://www.eareyereading.com/zh-tw/help/dialyze
 https://www.eareyereading.com/zh-tw/help/dict-imports
 https://www.eareyereading.com/zh-tw/help/faq
-https://www.eareyereading.com/
 https://www.eareyereading.com/zh-tw/help/3rd-source-help
 https://www.eareyereading.com/zh-tw/help/about-collins-freq
 https://www.eareyereading.com/help/variables
@@ -60,7 +63,6 @@ https://www.eareyereading.com/help/user_make_lrc
 https://www.eareyereading.com/help/spreeder
 https://www.eareyereading.com/help/subscription-cancel
 https://www.eareyereading.com/help/support
-https://www.eareyereading.com/help/subscriptions
 https://www.eareyereading.com/help/tap-to-listen
 https://www.eareyereading.com/help/tag-plugins
 https://www.eareyereading.com/help/plugins
@@ -70,7 +72,6 @@ https://www.eareyereading.com/help/privacy-news
 https://www.eareyereading.com/help/readability
 https://www.eareyereading.com/help/server
 https://www.eareyereading.com/help/shortcuts
-https://www.eareyereading.com/help/
 https://www.eareyereading.com/help/internationalization
 https://www.eareyereading.com/help/learnings
 https://www.eareyereading.com/help/lrc-adjust-timestamp
