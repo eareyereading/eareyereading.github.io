@@ -1,5 +1,8 @@
-https://www.eareyereading.com/help/release-notes
+https://www.eareyereading.com/zh-tw/help/fulltext-translation
+https://www.eareyereading.com/en/
+https://www.eareyereading.com/zh-tw/
 https://www.eareyereading.com/
+https://www.eareyereading.com/help/release-notes
 https://www.eareyereading.com/help/blur-content
 https://www.eareyereading.com/help/fulltext-translation
 https://www.eareyereading.com/help/subscriptions
@@ -12,7 +15,6 @@ https://www.eareyereading.com/en/help/release-notes
 https://www.eareyereading.com/zh-tw/help/release-notes
 https://www.eareyereading.com/zh-tw/help/blur-content
 https://www.eareyereading.com/en/help/blur-content
-https://www.eareyereading.com/zh-tw/
 https://www.eareyereading.com/zh-tw/help/word-analysis
 https://www.eareyereading.com/zh-tw/help/word-lookup
 https://www.eareyereading.com/zh-tw/help/subscriptions
@@ -106,7 +108,6 @@ https://www.eareyereading.com/help/bionic-reading
 https://www.eareyereading.com/help/book-imports-others
 https://www.eareyereading.com/help/book-imports
 https://www.eareyereading.com/help/commands
-https://www.eareyereading.com/en/
 https://www.eareyereading.com/help/3rd-source-help
 https://www.eareyereading.com/help/about-collins-freq
 https://www.eareyereading.com/en/help/terms-of-use
