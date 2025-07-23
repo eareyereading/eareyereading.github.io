@@ -1,8 +1,13 @@
-https://www.eareyereading.com/zh-tw/help/fulltext-translation
+https://www.eareyereading.com/en/help/
 https://www.eareyereading.com/en/
+https://www.eareyereading.com/en/help/fulltext-translation
+https://www.eareyereading.com/en/help/release-notes
+https://www.eareyereading.com/zh-tw/help/blur-content
+https://www.eareyereading.com/zh-tw/help/release-notes
+https://www.eareyereading.com/help/release-notes
+https://www.eareyereading.com/zh-tw/help/fulltext-translation
 https://www.eareyereading.com/zh-tw/
 https://www.eareyereading.com/
-https://www.eareyereading.com/help/release-notes
 https://www.eareyereading.com/help/blur-content
 https://www.eareyereading.com/help/fulltext-translation
 https://www.eareyereading.com/help/subscriptions
@@ -11,9 +16,6 @@ https://www.eareyereading.com/zh-tw/help/word-wise
 https://www.eareyereading.com/en/help/word-wise
 https://www.eareyereading.com/en/help/shortcuts
 https://www.eareyereading.com/zh-tw/help/shortcuts
-https://www.eareyereading.com/en/help/release-notes
-https://www.eareyereading.com/zh-tw/help/release-notes
-https://www.eareyereading.com/zh-tw/help/blur-content
 https://www.eareyereading.com/en/help/blur-content
 https://www.eareyereading.com/zh-tw/help/word-analysis
 https://www.eareyereading.com/zh-tw/help/word-lookup
@@ -130,7 +132,6 @@ https://www.eareyereading.com/en/help/subscription-cancel
 https://www.eareyereading.com/en/help/gestures
 https://www.eareyereading.com/en/help/highlight-words
 https://www.eareyereading.com/en/help/hollow-learnings
-https://www.eareyereading.com/en/help/
 https://www.eareyereading.com/en/help/lrc-adjust-timestamp
 https://www.eareyereading.com/en/help/lrc-combine
 https://www.eareyereading.com/en/help/dialyze
