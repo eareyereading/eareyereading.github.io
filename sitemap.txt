@@ -1,7 +1,9 @@
+https://www.eareyereading.com/en/help/subscriptions
+https://www.eareyereading.com/help/subscriptions
+https://www.eareyereading.com/zh-tw/help/subscriptions
 https://www.eareyereading.com/zh-tw/help/
 https://www.eareyereading.com/zh-tw/help/release-notes
 https://www.eareyereading.com/zh-tw/help/fulltext-translation
-https://www.eareyereading.com/help/subscriptions
 https://www.eareyereading.com/help/release-notes
 https://www.eareyereading.com/help/fulltext-translation
 https://www.eareyereading.com/en/help/release-notes
@@ -20,7 +22,6 @@ https://www.eareyereading.com/zh-tw/help/shortcuts
 https://www.eareyereading.com/en/help/blur-content
 https://www.eareyereading.com/zh-tw/help/word-analysis
 https://www.eareyereading.com/zh-tw/help/word-lookup
-https://www.eareyereading.com/zh-tw/help/subscriptions
 https://www.eareyereading.com/zh-tw/help/support
 https://www.eareyereading.com/zh-tw/help/tap-to-listen
 https://www.eareyereading.com/zh-tw/help/terms-of-use
@@ -118,7 +119,6 @@ https://www.eareyereading.com/en/help/user_make_lrc
 https://www.eareyereading.com/en/help/word-analysis
 https://www.eareyereading.com/en/help/word-lookup
 https://www.eareyereading.com/en/help/support
-https://www.eareyereading.com/en/help/subscriptions
 https://www.eareyereading.com/en/help/tap-to-listen
 https://www.eareyereading.com/en/help/lrc-set-timestamp
 https://www.eareyereading.com/en/help/lrc-split
