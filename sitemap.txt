@@ -1,6 +1,9 @@
-https://www.eareyereading.com/en/help/subscriptions
+https://www.eareyereading.com/en/help/3rd-source-help
+https://www.eareyereading.com/zh-tw/help/3rd-source-help
+https://www.eareyereading.com/help/3rd-source-help
 https://www.eareyereading.com/zh-tw/help/subscriptions
 https://www.eareyereading.com/help/subscriptions
+https://www.eareyereading.com/en/help/subscriptions
 https://www.eareyereading.com/en/help/release-notes
 https://www.eareyereading.com/zh-tw/help/release-notes
 https://www.eareyereading.com/help/release-notes
@@ -52,7 +55,6 @@ https://www.eareyereading.com/zh-tw/help/dialyze-book
 https://www.eareyereading.com/zh-tw/help/dialyze
 https://www.eareyereading.com/zh-tw/help/dict-imports
 https://www.eareyereading.com/zh-tw/help/faq
-https://www.eareyereading.com/zh-tw/help/3rd-source-help
 https://www.eareyereading.com/zh-tw/help/about-collins-freq
 https://www.eareyereading.com/help/variables
 https://www.eareyereading.com/help/word-analysis
@@ -111,7 +113,6 @@ https://www.eareyereading.com/help/bionic-reading
 https://www.eareyereading.com/help/book-imports-others
 https://www.eareyereading.com/help/book-imports
 https://www.eareyereading.com/help/commands
-https://www.eareyereading.com/help/3rd-source-help
 https://www.eareyereading.com/help/about-collins-freq
 https://www.eareyereading.com/en/help/terms-of-use
 https://www.eareyereading.com/en/help/transfer-proship
@@ -146,6 +147,5 @@ https://www.eareyereading.com/en/help/book-imports
 https://www.eareyereading.com/en/help/copyright
 https://www.eareyereading.com/en/help/dialyze-book
 https://www.eareyereading.com/about/
-https://www.eareyereading.com/en/help/3rd-source-help
 https://www.eareyereading.com/en/help/about-collins-freq
 https://www.eareyereading.com/
