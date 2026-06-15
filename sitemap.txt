@@ -1,3 +1,9 @@
+https://www.eareyereading.com/zh-tw/help/privacy
+https://www.eareyereading.com/help/privacy
+https://www.eareyereading.com/en/help/privacy
+https://www.eareyereading.com/zh-tw/help/terms-of-use
+https://www.eareyereading.com/help/terms-of-use
+https://www.eareyereading.com/en/help/terms-of-use
 https://www.eareyereading.com/zh-tw/help/subscriptions
 https://www.eareyereading.com/en/help/subscriptions
 https://www.eareyereading.com/help/subscriptions
@@ -30,11 +36,9 @@ https://www.eareyereading.com/zh-tw/help/word-analysis
 https://www.eareyereading.com/zh-tw/help/word-lookup
 https://www.eareyereading.com/zh-tw/help/support
 https://www.eareyereading.com/zh-tw/help/tap-to-listen
-https://www.eareyereading.com/zh-tw/help/terms-of-use
 https://www.eareyereading.com/zh-tw/help/user_make_lrc
 https://www.eareyereading.com/zh-tw/help/transfer-proship
 https://www.eareyereading.com/zh-tw/help/readability
-https://www.eareyereading.com/zh-tw/help/privacy
 https://www.eareyereading.com/zh-tw/help/spreeder
 https://www.eareyereading.com/zh-tw/help/subscription-cancel
 https://www.eareyereading.com/zh-tw/help/fast-reading
@@ -64,7 +68,6 @@ https://www.eareyereading.com/help/word-analysis
 https://www.eareyereading.com/help/word-lookup
 https://www.eareyereading.com/help/word-wise
 https://www.eareyereading.com/help/writing
-https://www.eareyereading.com/help/terms-of-use
 https://www.eareyereading.com/help/themes
 https://www.eareyereading.com/help/transfer-proship
 https://www.eareyereading.com/help/translation
@@ -76,7 +79,6 @@ https://www.eareyereading.com/help/support
 https://www.eareyereading.com/help/tap-to-listen
 https://www.eareyereading.com/help/tag-plugins
 https://www.eareyereading.com/help/plugins
-https://www.eareyereading.com/help/privacy
 https://www.eareyereading.com/help/read-loud
 https://www.eareyereading.com/help/privacy-news
 https://www.eareyereading.com/help/readability
@@ -116,7 +118,6 @@ https://www.eareyereading.com/help/book-imports-others
 https://www.eareyereading.com/help/book-imports
 https://www.eareyereading.com/help/commands
 https://www.eareyereading.com/help/about-collins-freq
-https://www.eareyereading.com/en/help/terms-of-use
 https://www.eareyereading.com/en/help/transfer-proship
 https://www.eareyereading.com/en/help/user_make_lrc
 https://www.eareyereading.com/en/help/word-analysis
@@ -128,7 +129,6 @@ https://www.eareyereading.com/en/help/lrc-split
 https://www.eareyereading.com/en/help/membership-book
 https://www.eareyereading.com/en/help/membership-news
 https://www.eareyereading.com/en/help/privacy-news
-https://www.eareyereading.com/en/help/privacy
 https://www.eareyereading.com/en/help/readability
 https://www.eareyereading.com/en/help/spreeder
 https://www.eareyereading.com/en/help/subscription-cancel
