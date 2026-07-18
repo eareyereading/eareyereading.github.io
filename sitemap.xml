@@ -2,6 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.eareyereading.com/zh-tw/</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/zh-tw/help/blur-content</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/zh-tw/help/</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/zh-tw/help/release-notes</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/zh-tw/help/subscriptions</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/zh-tw/help/fulltext-translation</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/subscriptions</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/blur-content</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/release-notes</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.eareyereading.com/help/fulltext-translation</loc>
+    
+    <lastmod>2026-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.eareyereading.com/zh-tw/help/help-center</loc>
     
     <lastmod>2026-06-15</lastmod>
@@ -83,15 +191,6 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/zh-tw/help/subscriptions</loc>
-    
-    <lastmod>2026-06-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.eareyereading.com/en/help/subscriptions</loc>
     
     <lastmod>2026-06-10</lastmod>
@@ -101,52 +200,7 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/help/subscriptions</loc>
-    
-    <lastmod>2026-06-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/zh-tw/</loc>
-    
-    <lastmod>2026-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/zh-tw/help/</loc>
-    
-    <lastmod>2026-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.eareyereading.com/zh-tw/help/cloze-mode</loc>
-    
-    <lastmod>2026-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/</loc>
-    
-    <lastmod>2026-03-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/</loc>
     
     <lastmod>2026-03-30</lastmod>
     
@@ -200,24 +254,6 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/zh-tw/help/release-notes</loc>
-    
-    <lastmod>2025-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/release-notes</loc>
-    
-    <lastmod>2025-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.eareyereading.com/help/3rd-source-help</loc>
     
     <lastmod>2025-11-04</lastmod>
@@ -245,45 +281,9 @@
   </url>
   
   <url>
-    <loc>https://www.eareyereading.com/zh-tw/help/fulltext-translation</loc>
-    
-    <lastmod>2025-07-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/fulltext-translation</loc>
-    
-    <lastmod>2025-07-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.eareyereading.com/en/help/fulltext-translation</loc>
     
     <lastmod>2025-07-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/zh-tw/help/blur-content</loc>
-    
-    <lastmod>2025-07-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.eareyereading.com/help/blur-content</loc>
-    
-    <lastmod>2025-07-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1390,7 +1390,7 @@
 
   <url>
     <loc>https://www.eareyereading.com/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
